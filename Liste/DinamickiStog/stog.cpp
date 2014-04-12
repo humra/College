@@ -5,8 +5,8 @@ stack::stack()
 	_top = new node;
 	_bottom = new node;
 
-	_top = _bottom;
-	_bottom = nullptr;
+	_top->under = _bottom;
+	_bottom->under = nullptr;
 }
 
 bool stack::is_empty()
