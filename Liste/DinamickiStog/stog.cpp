@@ -11,7 +11,7 @@ stack::stack()
 
 bool stack::is_empty()
 {
-	if(_bottom == nullptr)
+	if(_top->under == _bottom)
 	{
 		return true;
 	}
@@ -26,16 +26,8 @@ bool stack::push(ELTYPE element)
 	node* temp = new node;
 	temp->element = element; //*(temp).element
 
-	if(is_empty() == true)
-	{
-		_top->under = temp;
-		_bottom->under = temp;
-	}
-	else
-	{
-		temp->under = _top->under;
-		_top->under = temp;
-	}
+	temp->under = _top->under;
+	_top->under = temp;
 
 	return true;
 }
@@ -44,7 +36,7 @@ bool stack::pop(ELTYPE& element)
 {
 	node* temp = _top->under;
 
-	element = _top->element;
+	element = _top->under->element;
 
 	_top->under = _top->under->under;
 
@@ -55,7 +47,12 @@ bool stack::pop(ELTYPE& element)
 
 bool stack::top(ELTYPE& element)
 {
-	element = _top->element;
+	if(is_empty())
+	{
+		return false;
+	}
+	
+	element = _top->under->element;
 
 	return true;
 }
