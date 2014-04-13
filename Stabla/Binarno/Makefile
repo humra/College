@@ -1,2 +1,2 @@
 Program: binarno_stablo.cpp main.cpp
-	g++ binarno_stablo.cpp main.cpp -o Program
+	g++ -std=c++0x binarno_stablo.cpp main.cpp -o Program
