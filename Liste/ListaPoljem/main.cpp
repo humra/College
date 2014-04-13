@@ -4,26 +4,26 @@
 
 using namespace std;
 
-void ispisi_listu(lista& list);
+void print_list(lista& list);
 
 int main()
 {
 	lista osobe;
 
 	osobe.insert("Suzi", 1);
-	ispisi_listu(osobe);
+	print_list(osobe);
 
 	osobe.insert("Emily", 1);
-	ispisi_listu(osobe);
+	print_list(osobe);
 
 	osobe.insert("Robert", 1);
-	ispisi_listu(osobe);
+	print_list(osobe);
 
 	osobe.insert("Tea", 1);
-	ispisi_listu(osobe);
+	print_list(osobe);
 
 	osobe.insert("Humra", 3);
-	ispisi_listu(osobe);
+	print_list(osobe);
 
 	cout << endl << "TRAZENJE OSOBE: " << endl;
 	int found = osobe.find("Emily");
@@ -39,19 +39,19 @@ int main()
 	cout << endl;
 
 	osobe.remove(3);
-	ispisi_listu(osobe);
+	print_list(osobe);
 
 	while(osobe.first() != osobe.end())
 	{
 		osobe.remove(1);
 	}
-	ispisi_listu(osobe);
+	print_list(osobe);
 
 	cout << endl;
 	return 0;
 }
 
-void ispisi_listu(lista& list)
+void print_list(lista& list)
 {
 	string element;
 	cout << "ISPIS LISTE: " << endl;
