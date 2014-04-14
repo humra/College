@@ -4,20 +4,7 @@
 
 using namespace std;
 
-void ispisi_listu(lista& 1)
-{
-	ELTYPE element;
-
-	cout << "ISPIS LISTE: " << endl;
-
-	for(POSITION pos = 1.first(); pos != 1.end(); pos = 1.next(pos))
-	{
-		1.read(pos, element);
-		cout << element << endl;
-	}
-
-	cout << endl;
-}
+void ispisi_listu(lista& list);
 
 int main()
 {
@@ -64,4 +51,19 @@ int main()
 
 	cout << endl;
 	return 0;
+}
+
+void ispisi_listu(lista& list)
+{
+	ELTYPE element;
+
+	cout << "ISPIS LISTE: " << endl;
+
+	for(POSITION pos = list.first(); pos != list.end(); pos = list.next(pos))
+	{
+		list.read(pos, element);
+		cout << element << endl;
+	}
+
+	cout << endl;
 }
