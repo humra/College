@@ -30,7 +30,7 @@ public:
 	POSITION first();
 	bool insert(ELTYPE element, POSITION pos);
 	bool read(POSITION pos, ELTYPE& element);
-	bool remove(POSITON pos);
+	bool remove(POSITION pos);
 	POSITION find(ELTYPE element);
 	POSITION empty();
 	POSITION next(POSITION pos);
