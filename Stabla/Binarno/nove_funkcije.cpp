@@ -34,5 +34,5 @@ bool novo_stablo::has_right_child(POS pos)
 
 bool novo_stablo::insert(int element)
 {
-	
+	return true;
 }
