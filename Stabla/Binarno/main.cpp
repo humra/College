@@ -1,11 +1,12 @@
 #include <iostream>
 #include "binarno_stablo.h"
+#include "nove_funkcije.h"
 
 using namespace std;
 
 int main()
 {
-	binarno_stablo stablo;
+	/*binarno_stablo stablo;
 
 	stablo.create("A");
 
@@ -19,7 +20,11 @@ int main()
 	stablo.insert_left(cvor_c, "D");
 
 	POSITION cvor_d = stablo.get_left_child(cvor_c);
-	stablo.insert_left(cvor_d, "E");
+	stablo.insert_left(cvor_d, "E");*/
+
+	novo_stablo stablo;
+
+	stablo.root->element = 2;
 
 	cout << endl;
 	return 0;
