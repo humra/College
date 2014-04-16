@@ -1,38 +1,48 @@
+#ifndef _BINARNO_STABLO_H
+#define _BINARNO_STABLO_H
+
 #include <iostream>
+#include <string>
+#include "binarno_stablo.h"
 #include "nove_funkcije.h"
 
 using namespace std;
 
-POS novo_stablo::new_node(int element)
+void insert_into_tree(ELTYPE broj, binarno_stablo& tempTree, POSITION temp_node)
 {
-	node* novi = new node;
-	novi->left_child = nullptr;
-	novi->right_child = nullptr;
-
-	return novi;
-}
-
-bool novo_stablo::has_left_child(POS pos)
-{
-	if(pos->left_child == nullptr)
+	if(broj > temp_node->element)
 	{
-		return false;
+		if(temp_node->right_child != nullptr)
+		{
+			insert_into_tree(broj, tempTree, temp_node->right_child);
+		}
+
+		tempTree.insert_right(temp_node, broj);
+	}
+	else
+	{
+		if(temp_node->left_child != nullptr)
+		{
+			insert_into_tree(broj, tempTree, temp_node->left_child);
+		}
+
+		tempTree.insert_left(temp_node, broj);
 	}
 
-	return true;
+	return;
 }
 
-bool novo_stablo::has_right_child(POS pos)
+binarno_stablo create_tree(ELTYPE* brojevi, int brojeviSize)
 {
-	if(pos->right_child == nullptr)
+	binarno_stablo tempTree;
+	tempTree.create(brojevi[0]);
+
+	for(int i = 1; i < brojeviSize; i++)
 	{
-		return false;
+		insert_into_tree(brojevi[i], tempTree, tempTree.root());
 	}
 
-	return true;
+	return tempTree;
 }
 
-bool novo_stablo::insert(int element)
-{
-	return true;
-}
+#endif

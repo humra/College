@@ -3,27 +3,7 @@
 
 using namespace std;
 
-struct node;
-
-typedef node* POS;
-
-struct node
-{
-	int element;
-	POS left_child;
-	POS right_child;
-};
-
-class novo_stablo
-{
-private:
-	POS new_node(int element);
-
-public:
-	POS root;
-	bool has_left_child(POS pos);
-	bool has_right_child(POS pos);
-	bool insert(int element);
-};
+void insert_into_tree(ELTYPE broj, binarno_stablo& tempTree, POSITION temp_node);
+binarno_stablo create_tree(ELTYPE* brojevi, int brojeviSize);
 
 #endif

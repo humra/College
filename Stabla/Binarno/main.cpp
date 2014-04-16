@@ -1,5 +1,9 @@
+#ifndef _BINARNO_STABLO_H
+#define _BINARNO_STABLO_H
+
 #include <iostream>
 #include "binarno_stablo.h"
+#include "nove_funkcije.cpp"
 #include "nove_funkcije.h"
 
 using namespace std;
@@ -22,10 +26,16 @@ int main()
 	POSITION cvor_d = stablo.get_left_child(cvor_c);
 	stablo.insert_left(cvor_d, "E");*/
 
-	novo_stablo stablo;
+	binarno_stablo stablo;
 
-	stablo.root->element = 2;
+	int numbers[7] = {3, 6, 7, 2, 8, 1, 5};
+
+	stablo.create(numbers[0]);
+
+	stablo = create_tree(numbers, 7);
 
 	cout << endl;
 	return 0;
 }
+
+#endif

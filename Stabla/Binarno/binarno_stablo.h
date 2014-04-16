@@ -5,7 +5,7 @@
 
 using namespace std;
 
-typedef string ELTYPE;
+typedef int ELTYPE;
 
 struct cvor;
 
