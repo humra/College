@@ -45,4 +45,22 @@ binarno_stablo create_tree(ELTYPE* brojevi, int brojeviSize)
 	return tempTree;
 }
 
+void tree_depth(POSITION temp_node, int current_level, int& depth)
+{
+	if(current_level > depth)
+	{
+		depth = current_level;
+	}
+	if(temp_node->left_child != nullptr)
+	{
+		tree_depth(temp_node->left_child, current_level + 1, depth);
+	}
+	if(temp_node->right_child != nullptr)
+	{
+		tree_depth(temp_node->right_child, current_level + 1, depth);
+	}
+
+	return;
+}
+
 #endif

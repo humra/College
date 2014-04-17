@@ -3,7 +3,6 @@
 
 #include <iostream>
 #include "binarno_stablo.h"
-#include "nove_funkcije.cpp"
 #include "nove_funkcije.h"
 
 using namespace std;
@@ -30,9 +29,13 @@ int main()
 
 	int numbers[7] = {3, 6, 7, 2, 8, 1, 5};
 
-	stablo.create(numbers[0]);
-
 	stablo = create_tree(numbers, 7);
+
+	int depth = 1;
+
+	tree_depth(stablo.root(), 1, depth);
+
+	cout << depth << endl;
 
 	cout << endl;
 	return 0;
