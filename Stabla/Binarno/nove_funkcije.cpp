@@ -2,7 +2,6 @@
 #define _BINARNO_STABLO_H
 
 #include <iostream>
-#include <string>
 #include "binarno_stablo.h"
 #include "nove_funkcije.h"
 
