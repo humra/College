@@ -1,50 +1,30 @@
-#ifndef _BINARNO_STABLO_H
-#define _BINARNO_STABLO_H
-
 #include <iostream>
-#include "binarno_stablo.h"
-#include "nove_funkcije.h"
+#include "binary_tree.h"
+#include "extra_functions.h"
 
 using namespace std;
 
 int main()
 {
-	/*binarno_stablo stablo;
-
-	stablo.create("A");
-
-	POSITION cvor_a = stablo.root();
-	stablo.insert_left(cvor_a, "B");
-
-	POSITION cvor_b = stablo.get_left_child(cvor_a);
-	stablo.insert_left(cvor_b, "C");
-
-	POSITION cvor_c = stablo.get_left_child(cvor_b);
-	stablo.insert_left(cvor_c, "D");
-
-	POSITION cvor_d = stablo.get_left_child(cvor_c);
-	stablo.insert_left(cvor_d, "E");*/
-
-	binarno_stablo stablo;
+	binaryTree oak;
 
 	int numbers[7] = {3, 6, 7, 2, 8, 1, 5};
 
-	stablo = create_tree(numbers, 7);
+	oak = create_tree(numbers, 7);
 
-	int depth = 1;
+	int depth = 0;
 
-	tree_depth(stablo.root(), 1, depth);
+	tree_depth(oak.root(), 1, depth);
 
-	cout << "Tree depth: " << depth << endl;
+	cout << "Depth: " << depth << endl;
 
 	int leaves = 0;
 
-	tree_leaves(stablo.root(), leaves);
+	tree_leaves(oak.root(), leaves);
 
-	cout <<"Leaves: " << leaves << endl;
+	cout << "Leaves: " << leaves << endl;
 
 	cout << endl;
+
 	return 0;
 }
-
-#endif
