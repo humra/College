@@ -35,7 +35,13 @@ int main()
 
 	tree_depth(stablo.root(), 1, depth);
 
-	cout << depth << endl;
+	cout << "Tree depth: " << depth << endl;
+
+	int leaves = 0;
+
+	tree_leaves(stablo.root(), leaves);
+
+	cout <<"Leaves: " << leaves << endl;
 
 	cout << endl;
 	return 0;

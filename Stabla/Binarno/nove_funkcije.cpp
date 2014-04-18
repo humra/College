@@ -62,4 +62,22 @@ void tree_depth(POSITION temp_node, int current_level, int& depth)
 	return;
 }
 
+void tree_leaves(POSITION temp_node, int& leaves)
+{
+	if(temp_node->right_child == nullptr && temp_node->left_child == nullptr)
+	{
+		leaves++;
+	}
+	if(temp_node->right_child != nullptr)
+	{
+		tree_leaves(temp_node->right_child, leaves);
+	}
+	if(temp_node->left_child != nullptr)
+	{
+		tree_leaves(temp_node->left_child, leaves);
+	}
+
+	return;
+}
+
 #endif
