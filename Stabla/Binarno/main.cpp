@@ -30,6 +30,12 @@ int main()
 
 	cout << "Smallest: " << smallest << endl;
 
+	int sum = 0;
+
+	tree_odd_sum(oak.root(), sum);
+
+	cout << "Sum of odd members: " << sum << endl;
+
 	cout << endl;
 
 	return 0;

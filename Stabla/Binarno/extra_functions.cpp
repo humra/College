@@ -93,3 +93,21 @@ void tree_smallest(POSITION temp_node, int& smallest)
 
 	return;
 }
+
+void tree_odd_sum(POSITION temp_node, int& sum)
+{
+	if(temp_node->element % 2 == 1)
+	{
+		sum += temp_node->element;
+	}
+	if(temp_node->right_child != nullptr)
+	{
+		tree_odd_sum(temp_node->right_child, sum);
+	}
+	if(temp_node->left_child != nullptr)
+	{
+		tree_odd_sum(temp_node->left_child, sum);
+	}
+
+	return;
+}
