@@ -24,6 +24,12 @@ int main()
 
 	cout << "Leaves: " << leaves << endl;
 
+	int smallest = numbers[0];
+
+	tree_smallest(oak.root(), smallest);
+
+	cout << "Smallest: " << smallest << endl;
+
 	cout << endl;
 
 	return 0;

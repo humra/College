@@ -75,3 +75,21 @@ void insert_into_tree(ELTYPE number, binaryTree& tempTree, POSITION temp_node)
 
 	return;
 }
+
+void tree_smallest(POSITION temp_node, int& smallest)
+{
+	if(temp_node->element < smallest)
+	{
+		smallest = temp_node->element;
+	}
+	if(temp_node->right_child != nullptr)
+	{
+		tree_smallest(temp_node->right_child, smallest);
+	}
+	if(temp_node->left_child != nullptr)
+	{
+		tree_smallest(temp_node->left_child, smallest);
+	}
+
+	return;
+}
