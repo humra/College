@@ -111,3 +111,35 @@ void tree_odd_sum(POSITION temp_node, int& sum)
 
 	return;
 }
+
+void tree_level(POSITION temp_node, int current_level, int& largest, int& level)
+{
+	if(temp_node->element > largest)
+	{
+		level = current_level;
+	}
+	if(temp_node->right_child != nullptr)
+	{
+		tree_level(temp_node->right_child, current_level + 1, largest, level);
+	}
+
+	return;
+}
+
+void tree_biggest_max(POSITION temp_node, int current_level, int MAX, int& largest)
+{
+	if(current_level > MAX)
+	{
+		return;
+	}
+	if(temp_node->element > largest)
+	{
+		largest = temp_node->element;
+	}
+	if(temp_node->right_child != nullptr)
+	{
+		tree_biggest_max(temp_node->right_child, current_level + 1, MAX, largest);
+	}
+
+	return;
+}
