@@ -1,0 +1,14 @@
+TASK 1:
+
+Multiply numbers 12h and 0Fh using registers a and b.
+Subtract 02h from the result.
+
+ORG 0000
+CLR a
+MOV a, #12h
+MOV B, #0Fh
+MUL ab
+SUBB a, #02h
+END
+
+-------------------------------------------------------
