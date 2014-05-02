@@ -12,3 +12,20 @@ SUBB a, #02h
 END
 
 -------------------------------------------------------
+TASK 2:
+
+Transfer the data 51h into indirectly addressed memory 
+location 2Ah using R0 registry. Afterwards, transfer 
+the data into accumulator and increase it by 1 and 
+store the data into the location 2Bh.
+
+ORG 00h
+CLR a
+MOV R0, #2Ah
+MOV @R0, #51h
+MOV a, @R0
+INC a
+MOV 2Bh, a
+END
+
+-------------------------------------------------------
