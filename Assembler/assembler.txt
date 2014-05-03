@@ -29,3 +29,19 @@ MOV 2Bh, a
 END
 
 -------------------------------------------------------
+TASK 3:
+
+Define a variable called CLUE and give it a value of
+35h. Move the value 1Fh in the accumulator and perform
+operation OR over the accumulator and variable CLUE.
+Store the result in the address 2Ch.
+
+ORG 00h
+CLR a
+CLUE EQU 35h
+MOV a, #1Fh
+ORL a,#CLUE
+MOV 2Ch, a
+END
+
+-------------------------------------------------------
