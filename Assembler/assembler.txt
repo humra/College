@@ -45,3 +45,21 @@ MOV 2Ch, a
 END
 
 -------------------------------------------------------
+TASK 4:
+
+Using the accumulator, location 1Fh and 20h, add the
+numbers from 01h to 0Fh. Store the sum on the location
+21h.
+
+ORG 00h
+CLR a
+MOV 1Fh, #01h
+MOV 20h, #0Fh
+LOOP:
+	ADD a, 1Fh
+	INC 1Fh
+	DJNZ 20h, LOOP
+MOV 21h, a
+END
+
+-------------------------------------------------------
