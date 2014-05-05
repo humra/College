@@ -63,3 +63,19 @@ MOV 21h, a
 END
 
 -------------------------------------------------------
+TASK 5:
+
+Input the value 75h in register R6. Decrease that value
+by 1. Transfer the new value in location 29h. Increase
+it by 1 and push it to stack.
+
+ORG 00h
+CLR a
+MOV R6, #75h
+DEC R6
+MOV 29h, R6
+INC 29h
+PUSH 29h
+END
+
+-------------------------------------------------------
