@@ -113,3 +113,21 @@ MOV 14h, a
 END
 
 -------------------------------------------------------
+TASK 8:
+
+Store the value 26h in the accumulator, and in the 
+location 1Eh constant 11h. Execute logical AND in a way
+the result is stored in the accumulator. Store the 
+given result in memory address 1Fh using indirect
+addressing over register R0.
+
+ORG 00h
+CLR a
+MOV a, #26h
+MOV 1Eh, #11h
+ANL a, 1Eh
+MOV R0, #1Fh
+MOV @R0, a
+END
+
+-------------------------------------------------------
