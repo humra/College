@@ -131,3 +131,21 @@ MOV @R0, a
 END
 
 -------------------------------------------------------
+TASK 9:
+
+Using the accumulator, location 2Ch and location 2Dh,
+add the numbers from 1 to 9 together and store the sum
+in the location 2Eh.
+
+ORG 00h
+CLR a
+MOV 2Ch, #01h
+MOV 2Dh, #09h
+LOOP:
+	ADD a, 2Ch
+	INC 2Ch
+	DJNZ 2Dh, LOOP
+MOV 2Eh, a
+END
+
+-------------------------------------------------------
