@@ -95,3 +95,21 @@ MOV R3, a
 END
 
 -------------------------------------------------------
+TASK 7:
+
+Define symbol called "address" and give it the value
+of 13h. Input the value 2Ch in the accumulator, and on
+the location 13h input the value of E4h. Execute the
+logical OR operation over the accumulator and content
+of the address. Move the result to the location 14h.
+
+ORG 00h
+CLR a
+ADDRESS EQU 13h
+MOV a, #2Ch
+MOV 13h, #0E4h
+ORL a, ADDRESS
+MOV 14h, a
+END
+
+-------------------------------------------------------
