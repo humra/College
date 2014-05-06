@@ -79,3 +79,19 @@ PUSH 29h
 END
 
 -------------------------------------------------------
+TASK 6:
+
+Store the value 20h in the accumulator, and in the 
+memory location 40h store the constant 2. Divide these
+values and store the result in register R3.
+
+ORG 00h
+CLR a
+MOV a, #20h
+MOV 40h, #02h
+MOV b, 40h
+DIV ab
+MOV R3, a
+END
+
+-------------------------------------------------------
