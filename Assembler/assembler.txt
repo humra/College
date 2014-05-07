@@ -149,3 +149,21 @@ MOV 2Eh, a
 END
 
 -------------------------------------------------------
+TASK 10:
+
+Using the accumulator, location B3h and register R6,
+add the numbers from 5 to 15 and store the sum in the
+register R2.
+
+ORG 00h
+CLR a
+MOV B3h, #0Bh
+MOV R6, #05h
+LOOP:
+	ADD a, R6
+	INC R6
+	DJNZ 23h, LOOP
+MOV R2, a
+END
+
+-------------------------------------------------------
