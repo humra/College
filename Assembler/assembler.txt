@@ -167,3 +167,21 @@ MOV R2, a
 END
 
 -------------------------------------------------------
+Task 11:
+
+Input the value 65h in the accumulator, 68h in memory
+location 29h. Decrease the value in location 29h by 1.
+After that compare the contents of accumulator and 
+location 29h, and if they are not the same jump to
+function EXAMPLE.
+
+ORG 00h
+CLR a
+MOV a, #65h
+MOV 29H, #68H
+EXAMPLE:
+	DEC 29h
+	CJNE a, 29h, EXAMPLE
+END
+
+-------------------------------------------------------
