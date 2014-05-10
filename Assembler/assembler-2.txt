@@ -1,0 +1,28 @@
+TASK 1:
+
+Set the lowest bit in the registry R0 to 1.
+(R0 contains any testing value)
+
+ORG 00h
+CLR a
+MOV R0, #08h
+MOV a, R0
+ORL a, #01b
+MOV R0, a
+END
+
+----------------------------------------------
+TASK 2:
+
+Set the lowest and highest bit in the registry
+R0 to 1. (R0 contains any testing value)
+
+ORG 00h
+CLR a
+MOV R0, #08h
+MOV a, R0
+ORL a, #10000001b
+MOV R0, a
+END
+
+----------------------------------------------
