@@ -62,20 +62,23 @@ the new one. Use indirect addressing.
 
 ORG 00h
 CLR a
-MOV 20h, #01h
-MOV 21h, #02h
-MOV 22h, #03h
-MOV 23h, #04h
-MOV 24h, #05h
+MOV R0, #20h
+MOV a, #01h
+WRITE:
+	MOV @R0, a
+	INC R0
+	INC a
+	CJNE a, #06h, WRITE
+CLR a
 MOV b, #09h
 MOV R0, #20H
-LOOP:
+MULTIPLY:
 	MOV a, @R0
 	MUL ab
 	MOV @R0, a
 	MOV b, #09h
 	INC R0
-	CJNE R0, #25h, LOOP
+	CJNE R0, #25h, MULTIPLY
 END
 
 ----------------------------------------------
