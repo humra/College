@@ -26,3 +26,30 @@ MOV R0, a
 END
 
 ----------------------------------------------
+TASK 3:
+
+Write a program which adds two numbers in
+memory locations next to each other and then
+adds that sum to the total sum. Use indirect
+addressing when reading the data. The data is
+stored in locations 20h to 25h (3 sets).
+
+ORG 00h
+CLR a
+MOV R0, #20h
+MOV R1, #21h
+MOV R3, #00h
+LOOP:
+	CLR a
+	ADD a, @R0
+	ADD a, @R1
+	ADD a, R3
+	MOV R3, a
+	INC R0
+	INC R0
+	INC R1
+	INC R1
+	CJNE R1, #26h, LOOP
+END
+
+----------------------------------------------
