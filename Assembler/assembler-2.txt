@@ -53,3 +53,29 @@ LOOP:
 END
 
 ----------------------------------------------
+TASK 4:
+
+Input values from 01h to 05h into memory loca-
+tions 20h to 24h. After that, multiply their
+values with 09h and replace the old value with
+the new one. Use indirect addressing.
+
+ORG 00h
+CLR a
+MOV 20h, #01h
+MOV 21h, #02h
+MOV 22h, #03h
+MOV 23h, #04h
+MOV 24h, #05h
+MOV b, #09h
+MOV R0, #20H
+LOOP:
+	MOV a, @R0
+	MUL ab
+	MOV @R0, a
+	MOV b, #09h
+	INC R0
+	CJNE R0, #25h, LOOP
+END
+
+----------------------------------------------
