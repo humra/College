@@ -82,3 +82,45 @@ MULTIPLY:
 END
 
 ----------------------------------------------
+TASK 5:
+
+Write the program that will calculate the area
+of an isosceles triangle which has the length
+of base 07h (stored in memory location 20h)
+and height of 04h (stored in memory location
+21h). Store the result in registry R0.
+
+ORG 00h
+CLR a
+MOV 20h, #07h
+MOV 21h, #04h
+MOV a, 20h
+MOV b, 21h
+MUL ab
+MOV b, #02h
+DIV ab
+MOV R0, a
+END
+
+----------------------------------------------
+TASK 6:
+
+Calculate the average value of data stored in
+memory locations 20h-24h. Store the result in
+registry R2 and the remainder in registry R3.
+
+ORG 00h
+CLR a
+MOV R1, #05h
+MOV R0, #20h
+LOOP:
+	ADD a, @R0
+	INC R0
+	DJNZ R1, LOOP
+MOV b, #05h
+DIV ab
+MOV R2, a
+MOV R3, b
+END
+
+----------------------------------------------
