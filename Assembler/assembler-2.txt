@@ -124,3 +124,28 @@ MOV R3, b
 END
 
 ----------------------------------------------
+TASK 7:
+
+Divide the content of registry R0 by the 
+content of registry R1. Store the result in 
+registry R2 (answer) and in registry R3 
+(reminder). Clear the registry R0 then restore
+it's original content.
+
+ORG 00h
+CLR a
+MOV R0, #0Bh
+MOV R1, #03h
+MOV a, R0
+MOV b, R1
+DIV ab
+MOV R2, a
+MOV R3, b
+MOV R0, #00h
+MOV b, R1
+MUL ab
+ADD a, R3
+MOV R0, a
+END
+
+----------------------------------------------
