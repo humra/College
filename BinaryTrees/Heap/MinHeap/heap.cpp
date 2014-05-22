@@ -22,7 +22,7 @@ bool heap::_isFull() {
 void heap::_reheapifyUpward() {
 	POSITION pos = _last;
 
-	while(pos != 0 && _elements[pos] > _elements[_calcParent(pos)]) {
+	while(pos != 0 && _elements[pos] < _elements[_calcParent(pos)]) {
 		swap(_elements[pos], _elements[_calcParent(pos)]);
 		pos = _calcParent(pos);
 	}
