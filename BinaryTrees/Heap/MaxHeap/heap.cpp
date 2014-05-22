@@ -21,44 +21,53 @@ bool heap::_isFull() {
 
 void heap::_reheapifyUpward() {
 	POSITION pos = _last;
+	POSITION parent = _calcParent(pos);
 
-	while(pos != 0 && _elements[pos] > _elements[_calcParent(pos)]) {
-		swap(_elements[pos], _elements[_calcParent(pos)]);
-		pos = _calcParent(pos);
+	if(pos == 0) {
+		return;
+	}
+
+	while(pos != 0 && _elements[pos] > _elements[parent]) {
+		parent = _calcParent(pos);
+
+		swap(_elements[pos], _elements[parent]);
+		pos = parent;
 	}
 }
 
 void heap::_reheapifyDownward() {
 	POSITION pos = 0;
+	POSITION left_child = _calcLeft(pos);
+	POSITION right_child = _calcRight(pos);
+	POSITION greater;
 
-	while(pos < _last / 2) {
-		POSITION left_child = _calcLeft(pos);
-		POSITION right_child = _calcRight(pos);
-		POSITION greater_index;
+	while(pos < _last) {
+		left_child = _calcLeft(pos);
+		right_child = _calcRight(pos);
 
 		if(left_child >= _last && right_child >= _last) {
 			return;
 		}
 		else if(left_child < _last && right_child >= _last) {
-			greater_index = left_child;
+			greater = left_child;
 		}
 		else {
 			if(_elements[left_child] > _elements[right_child]) {
-				greater_index = left_child;
+				greater = left_child;
 			}
 			else {
-				greater_index = right_child;
+				greater = right_child;
 			}
 		} 
 
-		if(_elements[pos] < _elements[greater_index]) {
-			swap(_elements[pos], _elements[greater_index]);
+		if(_elements[pos] < _elements[greater]) {
+			swap(_elements[pos], _elements[greater]);
 		}
 		else {
 			return;
 		}
 
-		pos = greater_index;
+		pos = greater;
 	}
 }
 
