@@ -7,8 +7,10 @@ void sort(int data[], int n) {
 	for(int step = n / 2; step > 0; step = step / 2) {
 		for(int i = step; i < n; i++) {
 			temp = data[i];
-			for(j = i; j >= step && data[j - step] > temp; j = j - step) {
-				swap(data[j - step], data[j]);
+			j = i;
+			while(j >= step && data[j - step] > temp) {
+				swap(data[j], data[j - step]);
+				j = j - step;
 			}
 		}
 	}
