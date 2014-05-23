@@ -3,18 +3,17 @@ using namespace std;
 
 void sort(int data[], int n) {
 
-	int min;
 	int minindex;
 	for(int i = 0; i < n - 1; i++) {
-		min = data[i];
 		minindex = i;
 		for(int j = i + 1; j < n; j++) {
-			if(data[j] < min) {
-				min = data[j];
+			if(data[j] < data[minindex]) {
 				minindex = j;
 			}
 		}
-		swap(data[i], data[minindex]);
+		if(minindex != i) {
+			swap(data[i], data[minindex]);
+		}
 	}
 }
 
