@@ -49,12 +49,13 @@ void merge_sort(int *data, int from, int to){
 }
 
 int main(){
-	int n = 10;
 	vector<int> p;
 
-	for(int i = 10; i > 0; i--) {
+	for(int i = 15; i > 0; i--) {
 		p.push_back(i);
 	}
+
+	int n = p.size();
 
 	int *pp = &p[0];
 
