@@ -10,11 +10,11 @@ void sort(int* data, int n) {
 				minindex = x;
 			}
 		}
-		//if(minindex != j) {
+		if(minindex != j) {
 			temp = data[j];
 			data[j] = data[minindex];
 			data[minindex] = temp;
-		//}
+		}
 	}
 }
 
