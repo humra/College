@@ -1,64 +1,69 @@
-#include <iostream>
+#include<iostream>
+#include<vector>
+
 using namespace std;
 
-void merge(int* poljea, int na, int* poljeb, int nb) {
-	int* poljec = new int[na + nb];
-
+void merge(int *poljea, int na, int *poljeb, int nb){
+	vector<int> poljec;
 	int ia = 0;
 	int ib = 0;
 
-	for(int ic = 0; ic < na + nb; ic++) {
-		if(ia == na) {
-			poljec[ic] = poljeb[ib];
+	while(ia + ib != na + nb){
+		if (ia == na){
+			poljec.push_back(poljeb[ib]);
 			ib++;
 			continue;
 		}
-		if(ib == nb) {
-			poljec[ic] = poljea[ia];
+
+		if (ib == nb){
+			poljec.push_back(poljea[ia]);
 			ia++;
 			continue;
 		}
 
-		if(poljea[ia] < poljeb[ib]) {
-			poljec[ic] = poljea[ia];
+		if (poljea[ia] < poljeb[ib]){
+			poljec.push_back(poljea[ia]);
 			ia++;
 		}
-		else {
-			poljec[ic] = poljeb[ib];
+		else{
+			poljec.push_back(poljeb[ib]);
 			ib++;
 		}
-	}
+		}
 
-	for(int i = 0; i < na + nb; i++) {
+	for (int i = 0; i < na + nb; i++){
 		poljea[i] = poljec[i];
 	}
-
-	delete[] poljec;
+	
 }
 
-void merge_sort(int data[], int from, int to) {
-	if(from == to) {
+void merge_sort(int *data, int from, int to){
+	if (from == to) {
 		return;
 	}
 
 	int mid = (from + to) / 2;
 	merge_sort(data, from, mid);
 	merge_sort(data, mid + 1, to);
-
 	merge(data + from, mid - from + 1, data + mid + 1, to - mid);
 }
 
-int main() {
-
+int main(){
 	int n = 10;
-	int data[] = { 10, 9, 8, 7, 6, 5, 4, 3, 2, 1 };
+	vector<int> p;
 
-	merge_sort(data, 0, n - 1);
-
-	for (int i = 0; i < n; i++) {
-		cout << data[i] << " ";
+	for(int i = 10; i > 0; i--) {
+		p.push_back(i);
 	}
-	cout << endl;
 
+	int *pp = &p[0];
+
+	merge_sort(pp, 0, n-1);
+
+	for (int i = 0; i < n; i++){
+		cout << p[i] << " ";
+	}
+
+	cout << endl;
 	return 0;
 }
