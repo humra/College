@@ -1,50 +1,34 @@
-#include <iostream>
-#include <string>
+#include <stdio.h>
+#include <string.h>
 
-using namespace std;
-
-int provjeri_palindrom(string rijec, int duzina)
-{
-	if(rijec[0] != rijec[duzina -1])
-	{
-		return 0;
-	}
-	if(duzina < 1)
-	{
-		return 1;
+void strrev(char s[]) {
+	int i, j;
+	char temp;
+	for(i = 0, j = strlen(s) - 1; i < j; i++, j--) {
+		temp = s[i];
+		s[i] = s[j];
+		s[j] = temp;
 	}
 
-	string pomocna;
-
-	for(int i = 1; i < duzina - 1; i++)
-	{
-		pomocna = rijec[i];
-	}
-
-	if(duzina > 1)
-	{
-		provjeri_palindrom(pomocna, duzina - 1);
-	}
+	return;
 }
 
 int main()
 {
-	string rijec;
+	char word[50];
+	char word2[50];
 
-	cout << "Unesite rijec: ";
-	getline(cin, rijec);
+	printf("Enter word: ");
+	scanf("%s", &word);
 
-	int x = provjeri_palindrom(rijec, rijec.length());
-
-	if(x == 0)
-	{
-		cout << "Rijec nije palindrom";
+	strcpy(word2, word);
+	strrev(word2);
+	if(strcmp(word, word2) == 0) {
+		printf("The word is a palindrome\n");
 	}
-	else
-	{
-		cout << "Rijec je palindrom";
+	else {
+		printf("The word is not a palindrome\n");
 	}
 
-	cout << endl;
 	return 0;
 }
