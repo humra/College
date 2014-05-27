@@ -1,1 +1,2 @@
-/Red/DinamickiRed/DinamickiRed/build/
+*.vcxproj
+*.vcxproj.filters
