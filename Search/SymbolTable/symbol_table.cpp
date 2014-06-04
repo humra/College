@@ -23,7 +23,11 @@ bool symbol_table::remove(unsigned int key) {
 		return false;
 	}
 
-	_people[key - 1].ID = -1;
+	_people[key - 1].ID = 0;
+	_people[key - 1].name = "";
+	_people[key - 1].lastName = "";
+	_people[key - 1].height = 0;
+	_people[key - 1].pay = 0;
 	return true;
 }
 
