@@ -16,9 +16,6 @@ void radix_sort(int* data, int n) {
 	int digit;
 	int* temp;
 	temp = (int*) calloc(n, sizeof(int));
-	for(i = 0; i < n; i++) {
-		temp[i] = 0;
-	}
 
 	while(max / exponent > 0) {
 		for(i = 0; i < 10; i++) {
