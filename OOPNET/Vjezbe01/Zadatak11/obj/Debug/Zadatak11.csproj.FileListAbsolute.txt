@@ -1,0 +1,9 @@
+C:\OOPNET\Vjezbe01\Zadatak11\bin\Debug\Zadatak11.exe.config
+C:\OOPNET\Vjezbe01\Zadatak11\bin\Debug\Zadatak11.exe
+C:\OOPNET\Vjezbe01\Zadatak11\bin\Debug\Zadatak11.pdb
+C:\OOPNET\Vjezbe01\Zadatak11\obj\Debug\Zadatak11.csprojResolveAssemblyReference.cache
+C:\OOPNET\Vjezbe01\Zadatak11\obj\Debug\Zadatak11.Form1.resources
+C:\OOPNET\Vjezbe01\Zadatak11\obj\Debug\Zadatak11.Properties.Resources.resources
+C:\OOPNET\Vjezbe01\Zadatak11\obj\Debug\Zadatak11.csproj.GenerateResource.Cache
+C:\OOPNET\Vjezbe01\Zadatak11\obj\Debug\Zadatak11.exe
+C:\OOPNET\Vjezbe01\Zadatak11\obj\Debug\Zadatak11.pdb

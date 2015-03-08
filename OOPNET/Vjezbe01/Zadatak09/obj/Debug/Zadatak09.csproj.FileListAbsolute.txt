@@ -1,0 +1,8 @@
+C:\OOPNET\Vjezbe01\Zadatak09\bin\Debug\Zadatak09.exe.config
+C:\OOPNET\Vjezbe01\Zadatak09\bin\Debug\Zadatak09.exe
+C:\OOPNET\Vjezbe01\Zadatak09\bin\Debug\Zadatak09.pdb
+C:\OOPNET\Vjezbe01\Zadatak09\obj\Debug\Zadatak09.Form1.resources
+C:\OOPNET\Vjezbe01\Zadatak09\obj\Debug\Zadatak09.Properties.Resources.resources
+C:\OOPNET\Vjezbe01\Zadatak09\obj\Debug\Zadatak09.csproj.GenerateResource.Cache
+C:\OOPNET\Vjezbe01\Zadatak09\obj\Debug\Zadatak09.exe
+C:\OOPNET\Vjezbe01\Zadatak09\obj\Debug\Zadatak09.pdb
