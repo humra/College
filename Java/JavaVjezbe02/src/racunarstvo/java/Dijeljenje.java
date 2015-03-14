@@ -3,7 +3,12 @@ package racunarstvo.java;
 public class Dijeljenje {
 
     public static void main(String[] args) {
-        podijeli(Integer.parseInt(args[0]), Integer.parseInt(args[1]));
+        long pocetak = System.currentTimeMillis();
+        for(int i = 0; i < 100000; i++) {
+            podijeli(24, 7);
+        }
+        pocetak = System.currentTimeMillis() - pocetak;
+        System.out.println(pocetak);
     }
 
     public static void podijeli(int prvi, int drugi) {
