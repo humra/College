@@ -1,0 +1,9 @@
+C:\Users\Matija\Documents\GitHub\Practice\OOPNET\Vjezbe03\Zadatak04\bin\Debug\Zadatak04.exe.config
+C:\Users\Matija\Documents\GitHub\Practice\OOPNET\Vjezbe03\Zadatak04\bin\Debug\Zadatak04.exe
+C:\Users\Matija\Documents\GitHub\Practice\OOPNET\Vjezbe03\Zadatak04\bin\Debug\Zadatak04.pdb
+C:\Users\Matija\Documents\GitHub\Practice\OOPNET\Vjezbe03\Zadatak04\obj\Debug\Zadatak04.Form1.resources
+C:\Users\Matija\Documents\GitHub\Practice\OOPNET\Vjezbe03\Zadatak04\obj\Debug\Zadatak04.Properties.Resources.resources
+C:\Users\Matija\Documents\GitHub\Practice\OOPNET\Vjezbe03\Zadatak04\obj\Debug\Zadatak04.csproj.GenerateResource.Cache
+C:\Users\Matija\Documents\GitHub\Practice\OOPNET\Vjezbe03\Zadatak04\obj\Debug\Zadatak04.exe
+C:\Users\Matija\Documents\GitHub\Practice\OOPNET\Vjezbe03\Zadatak04\obj\Debug\Zadatak04.pdb
+C:\Users\Matija\Documents\GitHub\Practice\OOPNET\Vjezbe03\Zadatak04\obj\Debug\Zadatak04.csprojResolveAssemblyReference.cache
