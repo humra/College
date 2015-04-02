@@ -1,25 +1,92 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Vjezbe02", "http://localhost:32040", "{90DE7864-0651-42EF-8F7E-1A2CC93BF298}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Zadatak01", "http://localhost:36475", "{A7ACBDB6-3FAE-4496-AF62-56F33E5AA6C5}"
 	ProjectSection(WebsiteProperties) = preProject
 		UseIISExpress = "true"
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_32040"
-		Debug.AspNetCompiler.PhysicalPath = "..\Vjezbe02\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_32040\"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_36475"
+		Debug.AspNetCompiler.PhysicalPath = "Zadatak01\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_36475\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_32040"
-		Release.AspNetCompiler.PhysicalPath = "..\Vjezbe02\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_32040\"
+		Release.AspNetCompiler.VirtualPath = "/localhost_36475"
+		Release.AspNetCompiler.PhysicalPath = "Zadatak01\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_36475\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		SlnRelativePath = "..\Vjezbe02\"
+		SlnRelativePath = "Zadatak01\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Zadatak02", "http://localhost:36485", "{79776FCD-CE1A-411E-8A3E-55DDDB14EAEB}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_36485"
+		Debug.AspNetCompiler.PhysicalPath = "Zadatak02\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_36485\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_36485"
+		Release.AspNetCompiler.PhysicalPath = "Zadatak02\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_36485\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "Zadatak02\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Zadatak03(1)", "http://localhost:36504", "{8D1EDDF3-33A4-4EC2-B16C-3DBCF354FDCA}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_36504"
+		Debug.AspNetCompiler.PhysicalPath = "Zadatak03\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_36504\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_36504"
+		Release.AspNetCompiler.PhysicalPath = "Zadatak03\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_36504\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "Zadatak03\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Zadatak04", "http://localhost:36516", "{A038166D-8984-45FA-84D5-E87E6711CD93}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_36516"
+		Debug.AspNetCompiler.PhysicalPath = "Zadatak04\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_36516\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_36516"
+		Release.AspNetCompiler.PhysicalPath = "Zadatak04\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_36516\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "Zadatak04\"
+		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
 Global
@@ -27,8 +94,14 @@ Global
 		Debug|Any CPU = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{90DE7864-0651-42EF-8F7E-1A2CC93BF298}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{90DE7864-0651-42EF-8F7E-1A2CC93BF298}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7ACBDB6-3FAE-4496-AF62-56F33E5AA6C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7ACBDB6-3FAE-4496-AF62-56F33E5AA6C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79776FCD-CE1A-411E-8A3E-55DDDB14EAEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79776FCD-CE1A-411E-8A3E-55DDDB14EAEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D1EDDF3-33A4-4EC2-B16C-3DBCF354FDCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D1EDDF3-33A4-4EC2-B16C-3DBCF354FDCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A038166D-8984-45FA-84D5-E87E6711CD93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A038166D-8984-45FA-84D5-E87E6711CD93}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

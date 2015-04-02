@@ -5,16 +5,16 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-public partial class Zadatak03_Zadatak03 : System.Web.UI.Page
+public partial class _Default : System.Web.UI.Page
 {
 
     protected void Page_Load(object sender, EventArgs e)
     {
 
     }
-    protected void Button1_Click(object sender, EventArgs e)
+    protected void btnIspis_Click(object sender, EventArgs e)
     {
-        Osoba o = new Osoba { ime = txtIme.Text, prezime = txtPrezime.Text };
+        Osoba o = new Osoba { Ime = txtIme.Text, Prezime = txtPrezime.Text };
         ViewState["osoba"] = o;
     }
 
@@ -23,7 +23,7 @@ public partial class Zadatak03_Zadatak03 : System.Web.UI.Page
         if (IsPostBack)
         {
             Osoba o = (Osoba)ViewState["osoba"];
-            lblIme.Text = String.Format("{0} {1}", o.ime, o.prezime);
+            lblInfo.Text = String.Format("{0} {1}", o.Ime, o.Prezime);
         }
         base.OnPreRender(e);
     }

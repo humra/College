@@ -6,11 +6,11 @@ using System.Web;
 [Serializable]
 public class Osoba
 {
-    public string ime { get; set; }
-    public string prezime { get; set; }
+    public string Ime { get; set; }
+    public string Prezime { get; set; }
 
     public Osoba()
     {
-        
     }
+
 }
