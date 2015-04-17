@@ -7,3 +7,6 @@ C:\OOPNET\Vjezbe01\Zadatak02\obj\Debug\Zadatak02.csproj.GenerateResource.Cache
 C:\OOPNET\Vjezbe01\Zadatak02\obj\Debug\Zadatak02.exe
 C:\OOPNET\Vjezbe01\Zadatak02\obj\Debug\Zadatak02.pdb
 C:\OOPNET\Vjezbe01\Zadatak02\obj\Debug\Zadatak02.Form2.resources
+C:\Users\Matija\Documents\GitHub\Practice\OOPNET\Vjezbe01\Zadatak02\bin\Debug\Zadatak02.exe.config
+C:\Users\Matija\Documents\GitHub\Practice\OOPNET\Vjezbe01\Zadatak02\obj\Debug\Zadatak02.exe
+C:\Users\Matija\Documents\GitHub\Practice\OOPNET\Vjezbe01\Zadatak02\obj\Debug\Zadatak02.pdb
