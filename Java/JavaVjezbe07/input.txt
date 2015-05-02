@@ -1,0 +1,5 @@
+00000001|003851234567;00385912345689|Josip|Horvat|v1.1|19801103|josip@gmail.com,josip@racunarstvo.hr;josip_horvat;josip@gmail.com|
+00000002|003857654321;00385123456789|Pero|Peirc|v1.2|19950118|pero@gmail.com,pero@racunarstvo.hr;pero_peric;pero@gmail.com|
+00000003|003852222222;00385111111111|Ana|Anic|v1.1|19900717|ana@gmail.com,ana@racunarstvo.hr;ana_anic;ana@gmail.com|
+00000004|003853333333;00385444444444|Ivo|Ivic|v1.4|19891205|ivo@gmail.com,ivo@racunarstvo.hr;ivo_ivic;ivo@gmail.com|
+00000005|003855555555;00385666666666|Marija|Maric|v1.5|19750210|marija@gmail.com,marija@racunarstvo.hr;marija_maric;marija@gmail.com|

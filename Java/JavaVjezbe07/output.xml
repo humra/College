@@ -1,0 +1,86 @@
+<kontakti><kontakt>
+	<id>00000001</id>
+	<ime>Josip</ime>
+	<prezime></prezime
+	<brojevi>
+		<broj>003851234567</broj>
+		<broj>00385912345689</broj>
+		</brojevi>
+	<protokol>v1.1</protokol>
+	<datumRodjenja>19801103</datumRodjenja>
+	<mailovi>
+		<mail>josip@gmail.com</mail>
+		<mail>josip@racunarstvo.hr</mail>
+		</mailovi>
+	<skype>josip_horvat</skype>
+	<gTalk>josip@gmail.com</gTalk>
+</kontakt>
+<kontakt>
+	<id>00000002</id>
+	<ime>Pero</ime>
+	<prezime></prezime
+	<brojevi>
+		<broj>003857654321</broj>
+		<broj>00385123456789</broj>
+		</brojevi>
+	<protokol>v1.2</protokol>
+	<datumRodjenja>19950118</datumRodjenja>
+	<mailovi>
+		<mail>pero@gmail.com</mail>
+		<mail>pero@racunarstvo.hr</mail>
+		</mailovi>
+	<skype>pero_peric</skype>
+	<gTalk>pero@gmail.com</gTalk>
+</kontakt>
+<kontakt>
+	<id>00000003</id>
+	<ime>Ana</ime>
+	<prezime></prezime
+	<brojevi>
+		<broj>003852222222</broj>
+		<broj>00385111111111</broj>
+		</brojevi>
+	<protokol>v1.1</protokol>
+	<datumRodjenja>19900717</datumRodjenja>
+	<mailovi>
+		<mail>ana@gmail.com</mail>
+		<mail>ana@racunarstvo.hr</mail>
+		</mailovi>
+	<skype>ana_anic</skype>
+	<gTalk>ana@gmail.com</gTalk>
+</kontakt>
+<kontakt>
+	<id>00000004</id>
+	<ime>Ivo</ime>
+	<prezime></prezime
+	<brojevi>
+		<broj>003853333333</broj>
+		<broj>00385444444444</broj>
+		</brojevi>
+	<protokol>v1.4</protokol>
+	<datumRodjenja>19891205</datumRodjenja>
+	<mailovi>
+		<mail>ivo@gmail.com</mail>
+		<mail>ivo@racunarstvo.hr</mail>
+		</mailovi>
+	<skype>ivo_ivic</skype>
+	<gTalk>ivo@gmail.com</gTalk>
+</kontakt>
+<kontakt>
+	<id>00000005</id>
+	<ime>Marija</ime>
+	<prezime></prezime
+	<brojevi>
+		<broj>003855555555</broj>
+		<broj>00385666666666</broj>
+		</brojevi>
+	<protokol>v1.5</protokol>
+	<datumRodjenja>19750210</datumRodjenja>
+	<mailovi>
+		<mail>marija@gmail.com</mail>
+		<mail>marija@racunarstvo.hr</mail>
+		</mailovi>
+	<skype>marija_maric</skype>
+	<gTalk>marija@gmail.com</gTalk>
+</kontakt>
+</kontakti>
