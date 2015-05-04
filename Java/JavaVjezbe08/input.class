@@ -1,0 +1,13 @@
+//komentar
+
+public class input {
+	public static void main(String[] args) {
+		//drugi komentar
+		System.out.println("Test");
+		/* vise
+		linijski
+		komentar*/
+		
+		//treci komentar
+	}
+}
