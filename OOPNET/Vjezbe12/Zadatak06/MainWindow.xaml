@@ -1,0 +1,34 @@
+﻿<Window x:Class="Zadatak06.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <ListBox>
+            <ListBox.Background>
+                <LinearGradientBrush>
+                    <LinearGradientBrush.GradientStops>
+                        <GradientStop Color="Yellow" Offset="0"/>
+                        <GradientStop Color="Orange" Offset="0.5" x:Name="offTarget"/>
+                        <GradientStop Color="Yellow" Offset="1"/>
+                    </LinearGradientBrush.GradientStops>
+                </LinearGradientBrush>
+            </ListBox.Background>
+            <ListBoxItem>Prvi</ListBoxItem>
+            <ListBoxItem>Drugi</ListBoxItem>
+            <ListBoxItem>Treci</ListBoxItem>
+            <ListBoxItem>Cetvrti</ListBoxItem>
+            <ListBoxItem>Peti</ListBoxItem>
+            <ListBox.Triggers>
+                <EventTrigger RoutedEvent="ListBox.Loaded">
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <DoubleAnimation From="0" To="1" Storyboard.TargetProperty="Offset"
+                                             Duration="0:0:3" RepeatBehavior="Forever"
+                                             AutoReverse="True" Storyboard.TargetName="offTarget"/>
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+            </ListBox.Triggers>
+        </ListBox>
+    </Grid>
+</Window>

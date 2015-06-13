@@ -1,0 +1,12 @@
+C:\Users\Matija\Documents\GitHub\Practice\OOPNET\Vjezbe12\Zadatak06\bin\Debug\Zadatak06.exe.config
+C:\Users\Matija\Documents\GitHub\Practice\OOPNET\Vjezbe12\Zadatak06\bin\Debug\Zadatak06.exe
+C:\Users\Matija\Documents\GitHub\Practice\OOPNET\Vjezbe12\Zadatak06\bin\Debug\Zadatak06.pdb
+C:\Users\Matija\Documents\GitHub\Practice\OOPNET\Vjezbe12\Zadatak06\obj\Debug\MainWindow.baml
+C:\Users\Matija\Documents\GitHub\Practice\OOPNET\Vjezbe12\Zadatak06\obj\Debug\MainWindow.g.cs
+C:\Users\Matija\Documents\GitHub\Practice\OOPNET\Vjezbe12\Zadatak06\obj\Debug\App.g.cs
+C:\Users\Matija\Documents\GitHub\Practice\OOPNET\Vjezbe12\Zadatak06\obj\Debug\Zadatak06_MarkupCompile.cache
+C:\Users\Matija\Documents\GitHub\Practice\OOPNET\Vjezbe12\Zadatak06\obj\Debug\Zadatak06.g.resources
+C:\Users\Matija\Documents\GitHub\Practice\OOPNET\Vjezbe12\Zadatak06\obj\Debug\Zadatak06.Properties.Resources.resources
+C:\Users\Matija\Documents\GitHub\Practice\OOPNET\Vjezbe12\Zadatak06\obj\Debug\Zadatak06.csproj.GenerateResource.Cache
+C:\Users\Matija\Documents\GitHub\Practice\OOPNET\Vjezbe12\Zadatak06\obj\Debug\Zadatak06.exe
+C:\Users\Matija\Documents\GitHub\Practice\OOPNET\Vjezbe12\Zadatak06\obj\Debug\Zadatak06.pdb
