@@ -1,0 +1,6 @@
+C:\Users\Matija\Documents\GitHub\Practice\PPPK\Vjezbe01\Zadatak01\bin\Debug\Zadatak01.exe.config
+C:\Users\Matija\Documents\GitHub\Practice\PPPK\Vjezbe01\Zadatak01\bin\Debug\Zadatak01.exe
+C:\Users\Matija\Documents\GitHub\Practice\PPPK\Vjezbe01\Zadatak01\bin\Debug\Zadatak01.pdb
+C:\Users\Matija\Documents\GitHub\Practice\PPPK\Vjezbe01\Zadatak01\obj\Debug\Zadatak01.csprojResolveAssemblyReference.cache
+C:\Users\Matija\Documents\GitHub\Practice\PPPK\Vjezbe01\Zadatak01\obj\Debug\Zadatak01.exe
+C:\Users\Matija\Documents\GitHub\Practice\PPPK\Vjezbe01\Zadatak01\obj\Debug\Zadatak01.pdb
