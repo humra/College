@@ -3,33 +3,28 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <Button Width="400" Height="100" Content="Ja sam gumb" Name="btnGumb">
+        <Button Content="Klikni me njezno" Width="400" Height="100">
             <Button.Background>
                 <LinearGradientBrush>
-                    <LinearGradientBrush.GradientStops>
-                        <GradientStop Color="SkyBlue" Offset="0"/>
-                        <GradientStop Color="White" Offset="0.5" x:Name="gsTarget"/>
-                        <GradientStop Color="SkyBlue" Offset="1"/>
-                    </LinearGradientBrush.GradientStops>
+                    <GradientStop Offset="0" Color="LightBlue"/>
+                    <GradientStop Offset="0.5" Color="White"/>
+                    <GradientStop Offset="1" Color="LightBlue"/>
                 </LinearGradientBrush>
             </Button.Background>
             <Button.Triggers>
                 <EventTrigger RoutedEvent="Button.Loaded">
                     <BeginStoryboard>
                         <Storyboard>
-                            <ColorAnimation To="SkyBlue" AutoReverse="True" Duration="0:0:2"
-                                            Storyboard.TargetName="gsTarget" 
-                                            Storyboard.TargetProperty="Color"
-                                            RepeatBehavior="Forever"/>
+                            <ColorAnimation To="LightBlue" AutoReverse="True" Duration="0:0:1"
+                                            Storyboard.TargetProperty="Background.GradientStops[1].Color"/>
                         </Storyboard>
                     </BeginStoryboard>
                 </EventTrigger>
                 <EventTrigger RoutedEvent="Button.Click">
                     <BeginStoryboard>
                         <Storyboard>
-                            <DoubleAnimation To="500" AutoReverse="True" Duration="0:0:3"
-                                           Storyboard.TargetProperty="Width"
-                                           Storyboard.TargetName="btnGumb" RepeatBehavior="Forever"/>
+                            <DoubleAnimation To="500" AutoReverse="True" Duration="0:0:2"
+                                             Storyboard.TargetProperty="Width" RepeatBehavior="Forever"/>
                         </Storyboard>
                     </BeginStoryboard>
                 </EventTrigger>

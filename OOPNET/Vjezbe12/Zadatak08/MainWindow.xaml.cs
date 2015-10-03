@@ -15,9 +15,6 @@ using System.Windows.Shapes;
 
 namespace Zadatak08
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
         public MainWindow()
@@ -25,23 +22,26 @@ namespace Zadatak08
             InitializeComponent();
         }
 
-        string trenutniNaziv = "greenBrush";
+        string currentBrush = "brushyGreen";
+
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            if (this.trenutniNaziv == "greenBrush")
+            string newBrush = string.Empty;
+
+            if (currentBrush.Equals("brushyGreen"))
             {
-                this.trenutniNaziv = "redBrush";
+                currentBrush = "brushyRed";
             }
             else
             {
-                this.trenutniNaziv = "greenBrush";
+                currentBrush = "brushyGreen";
             }
 
-            RadialGradientBrush brush = (RadialGradientBrush)this.FindResource(this.trenutniNaziv);
+            LinearGradientBrush temp = (LinearGradientBrush)Gumb1.FindResource(currentBrush);
 
-            this.btn1.Background = brush;
-            this.btn2.Background = brush;
-            this.btn3.Background = brush;
+            Gumb1.Background = temp;
+            Gumb2.Background = temp;
+            Gumb3.Background = temp;
         }
     }
 }

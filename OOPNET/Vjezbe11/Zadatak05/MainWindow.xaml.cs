@@ -25,9 +25,10 @@ namespace Zadatak05
             InitializeComponent();
         }
 
-        private void btnPrvi_Click(object sender, RoutedEventArgs e)
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
-            this.lblPrvi.Content = this.txtBoxPrvi.Text;
+            string temp = txtBoks.Text;
+            lblLabela.Content = temp;
         }
     }
 }

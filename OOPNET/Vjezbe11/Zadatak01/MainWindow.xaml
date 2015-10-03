@@ -3,8 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <TextBlock Text="Hello, world!" FontFamily="Arial"  
-                   FontWeight="Bold" FontSize="18" Foreground="Blue"
-                   HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Label Content="Hello, world!" HorizontalAlignment="Center" VerticalAlignment="Center"
+               FontFamily="Arial" FontSize="18"/>
     </Grid>
 </Window>

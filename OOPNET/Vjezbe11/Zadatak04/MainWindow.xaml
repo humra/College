@@ -9,7 +9,6 @@
         </LinearGradientBrush>
     </Window.Background>
     <Grid>
-        <Button Height="100" Width="100" Content="Gumb" 
-                VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <Button Name="btnGumb" Content="Gumb" Height="50" Width="50"/>
     </Grid>
 </Window>

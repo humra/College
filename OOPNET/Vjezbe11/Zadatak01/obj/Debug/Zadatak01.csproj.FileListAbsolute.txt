@@ -1,13 +1,1 @@
 C:\Users\Matija\Documents\GitHub\Practice\OOPNET\Vjezbe11\Zadatak01\bin\Debug\Zadatak01.exe.config
-C:\Users\Matija\Documents\GitHub\Practice\OOPNET\Vjezbe11\Zadatak01\bin\Debug\Zadatak01.exe
-C:\Users\Matija\Documents\GitHub\Practice\OOPNET\Vjezbe11\Zadatak01\bin\Debug\Zadatak01.pdb
-C:\Users\Matija\Documents\GitHub\Practice\OOPNET\Vjezbe11\Zadatak01\obj\Debug\Zadatak01.csprojResolveAssemblyReference.cache
-C:\Users\Matija\Documents\GitHub\Practice\OOPNET\Vjezbe11\Zadatak01\obj\Debug\MainWindow.baml
-C:\Users\Matija\Documents\GitHub\Practice\OOPNET\Vjezbe11\Zadatak01\obj\Debug\MainWindow.g.cs
-C:\Users\Matija\Documents\GitHub\Practice\OOPNET\Vjezbe11\Zadatak01\obj\Debug\App.g.cs
-C:\Users\Matija\Documents\GitHub\Practice\OOPNET\Vjezbe11\Zadatak01\obj\Debug\Zadatak01_MarkupCompile.cache
-C:\Users\Matija\Documents\GitHub\Practice\OOPNET\Vjezbe11\Zadatak01\obj\Debug\Zadatak01.g.resources
-C:\Users\Matija\Documents\GitHub\Practice\OOPNET\Vjezbe11\Zadatak01\obj\Debug\Zadatak01.Properties.Resources.resources
-C:\Users\Matija\Documents\GitHub\Practice\OOPNET\Vjezbe11\Zadatak01\obj\Debug\Zadatak01.csproj.GenerateResource.Cache
-C:\Users\Matija\Documents\GitHub\Practice\OOPNET\Vjezbe11\Zadatak01\obj\Debug\Zadatak01.exe
-C:\Users\Matija\Documents\GitHub\Practice\OOPNET\Vjezbe11\Zadatak01\obj\Debug\Zadatak01.pdb

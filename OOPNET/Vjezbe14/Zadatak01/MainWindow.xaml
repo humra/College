@@ -1,0 +1,43 @@
+﻿<Window x:Class="Zadatak01.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <ControlTemplate x:Key="tempy" TargetType="{x:Type Button}">
+            <Border BorderBrush="LightBlue" BorderThickness="10" CornerRadius="10" x:Name="rub">
+                <ContentPresenter HorizontalAlignment="{TemplateBinding Property=HorizontalAlignment}"
+                                  VerticalAlignment="{TemplateBinding Property=VerticalAlignment}"
+                                  Margin="{TemplateBinding Property=Padding}"/>
+            </Border>
+            <ControlTemplate.Triggers>
+                <Trigger Property="IsPressed" Value="True">
+                    <Setter TargetName="rub" Value="Gold" Property="BorderBrush"/>
+                </Trigger>
+                <EventTrigger RoutedEvent="MouseEnter">
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <ColorAnimation To="Blue" Duration="0:0:0.5" Storyboard.TargetProperty="BorderBrush.Color"
+                                            Storyboard.TargetName="rub"/>
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+                <EventTrigger RoutedEvent="MouseLeave">
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <ColorAnimation To="LightBlue" Duration="0:0:0.5" Storyboard.TargetProperty="BorderBrush.Color"
+                                            Storyboard.TargetName="rub"/>
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
+        
+        <Style TargetType="{x:Type Button}">
+            <Setter Property="Template" Value="{StaticResource ResourceKey=tempy}"/>
+        </Style>
+    </Window.Resources>
+    
+    <Grid>
+        <Button Content="Gumb"/>
+    </Grid>
+</Window>

@@ -2,21 +2,24 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <LinearGradientBrush x:Key="brushyGreen">
+            <GradientStop Offset="0" Color="Lime"/>
+            <GradientStop Offset="0.5" Color="Green"/>
+            <GradientStop Offset="1" Color="Lime"/>
+        </LinearGradientBrush>
+        <LinearGradientBrush x:Key="brushyRed">
+            <GradientStop Offset="0" Color="Orange"/>
+            <GradientStop Offset="0.5" Color="Red"/>
+            <GradientStop Offset="1" Color="Orange"/>
+        </LinearGradientBrush>
+    </Window.Resources>
+    
     <StackPanel>
-        <Button HorizontalAlignment="Left" VerticalAlignment="Top" Content="Gumb 1"
-                Background="{StaticResource greenBrush}"
-                MinHeight="100" MinWidth="100"
-                Click="Button_Click" Name="btn1">
-        </Button>
-        <Button Content="Gumb 2"
-                Background="{StaticResource greenBrush}"
-                MinHeight="100" MinWidth="100"
-                Click="Button_Click" Name="btn2">
-        </Button>
-        <Button HorizontalAlignment="Right" VerticalAlignment="Top" Content="Gumb 3"
-                Background="{StaticResource greenBrush}"
-                MinHeight="100" MinWidth="100"
-                Click="Button_Click" Name="btn3">
-        </Button>
+        <Button Name="Gumb1" Width="50" Background="{StaticResource ResourceKey=brushyGreen}" Content="Gumb 1"
+                HorizontalAlignment="Left" Click="Button_Click"/>
+        <Button Name="Gumb2" Background="{StaticResource ResourceKey=brushyGreen}" Content="Gumb 2" Click="Button_Click"/>
+        <Button Name="Gumb3" Width="50" Background="{StaticResource ResourceKey=brushyGreen}" Content="Gumb 3"
+                HorizontalAlignment="Right" Click="Button_Click"/>
     </StackPanel>
 </Window>

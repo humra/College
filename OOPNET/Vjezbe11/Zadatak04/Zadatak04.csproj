@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CE2B0245-D09A-41D6-8EA7-5BBD4A5B6DFD}</ProjectGuid>
+    <ProjectGuid>{A72369DB-8731-42A7-B79A-6374224C13F4}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Zadatak04</RootNamespace>

@@ -3,20 +3,17 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <Ellipse Width="300" Height="300" Name="ellKrug" Fill="SkyBlue" Stroke="Purple" StrokeThickness="5">
+        <Ellipse Width="300" Height="300" Fill="LightBlue" Stroke="Purple" StrokeThickness="5">
             <Ellipse.Triggers>
                 <EventTrigger RoutedEvent="Ellipse.Loaded">
                     <BeginStoryboard>
                         <Storyboard>
-                            <DoubleAnimation To="250" Storyboard.TargetProperty="Height"
-                                             RepeatBehavior="Forever" Duration="0:0:0.5"
-                                             AutoReverse="True"/>
-                            <ColorAnimation To="Orange" Storyboard.TargetProperty="Stroke.Color"
-                                            RepeatBehavior="Forever" Duration="0:0:1"
-                                            AutoReverse="True"/>
-                            <DoubleAnimation To="2" Storyboard.TargetProperty="StrokeThickness"
-                                             RepeatBehavior="Forever" AutoReverse="True"
-                                             Duration="0:0:2"/>
+                            <DoubleAnimation To="2" AutoReverse="True" RepeatBehavior="Forever"
+                                             Storyboard.TargetProperty="StrokeThickness"/>
+                            <ColorAnimation To="Orange" AutoReverse="True" RepeatBehavior="Forever"
+                                            Storyboard.TargetProperty="Stroke.Color"/>
+                            <DoubleAnimation To="250" RepeatBehavior="Forever" AutoReverse="True"
+                                             Storyboard.TargetProperty="Width"/>
                         </Storyboard>
                     </BeginStoryboard>
                 </EventTrigger>

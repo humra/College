@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zadatak01", "Zadatak01\Zadatak01.csproj", "{BF2DF737-7E60-4CAF-ADB1-76C331F93B6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zadatak03", "Zadatak03\Zadatak03.csproj", "{86067F62-8ABB-43EB-9507-C560C68B99AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF2DF737-7E60-4CAF-ADB1-76C331F93B6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF2DF737-7E60-4CAF-ADB1-76C331F93B6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF2DF737-7E60-4CAF-ADB1-76C331F93B6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF2DF737-7E60-4CAF-ADB1-76C331F93B6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86067F62-8ABB-43EB-9507-C560C68B99AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86067F62-8ABB-43EB-9507-C560C68B99AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86067F62-8ABB-43EB-9507-C560C68B99AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86067F62-8ABB-43EB-9507-C560C68B99AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -20,28 +20,28 @@ namespace Zadatak06
     /// </summary>
     public partial class MainWindow : Window
     {
-        Random r;
+        Random r = new Random();
+
         public MainWindow()
         {
             InitializeComponent();
-            r = new Random();
         }
 
-        private void btnStvori_Click(object sender, RoutedEventArgs e)
+        private void btnDodaj_Click(object sender, RoutedEventArgs e)
         {
             StackPanel temp = new StackPanel();
-            temp.Background = new SolidColorBrush(Color.FromRgb((byte)r.Next(0, 256), (byte)r.Next(0, 256), (byte)r.Next(0, 256)));
-            temp.Margin = new Thickness(5);
+            SolidColorBrush brushy = new SolidColorBrush(Color.FromRgb((byte)r.Next(0, 256), (byte)r.Next(0, 256), (byte)r.Next(0, 256)));
+            temp.Background = brushy;
             temp.Width = 20;
             temp.Height = 20;
-            temp.LayoutTransform = new RotateTransform(r.Next(0, 381));
-            
-            this.content.Children.Add(temp);
+            temp.LayoutTransform = new RotateTransform(r.Next(0, 360));
+
+            stcPanel.Children.Add(temp);
         }
 
         private void btnBrisi_Click(object sender, RoutedEventArgs e)
         {
-            this.content.Children.Clear();
+            stcPanel.Children.Clear();
         }
     }
 }

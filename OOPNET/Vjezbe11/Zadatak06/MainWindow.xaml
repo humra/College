@@ -2,11 +2,9 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        <Button Name="btnStvori" Click="btnStvori_Click" Content="Stvori panel" 
-                Height="100" Width="100" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-        <Button Name="btnBrisi" Click="btnBrisi_Click" Content="Brisi panele" 
-                Height="100" Width="100" HorizontalAlignment="Right" VerticalAlignment="Top"/>
-        <StackPanel Name="content"></StackPanel>
-    </Grid>
+    <StackPanel>
+        <Button Height="50" Width="50" Name="btnDodaj" Content="Dodaj" Click="btnDodaj_Click"/>
+        <Button Height="50" Width="50" Name="btnBrisi" Content="Brisi" Click="btnBrisi_Click"/>
+        <StackPanel Name="stcPanel"></StackPanel>
+    </StackPanel>
 </Window>

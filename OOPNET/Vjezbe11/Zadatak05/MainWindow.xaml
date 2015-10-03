@@ -1,33 +1,35 @@
 ﻿<Window x:Class="Zadatak05.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MainWindow" Height="350" Width="350">
-    <Grid>
-        <StackPanel Orientation="Vertical" HorizontalAlignment="Left">
-            <Button Name="btnPrvi" Width="200" Click="btnPrvi_Click">
-                <StackPanel>
-                    <Image Source="C:\Users\Matija\Documents\GitHub\Practice\OOPNET\Vjezbe11\Zadatak05\emoticon.png"
-                           Height="50" Width="50"/>
-                    <TextBlock>Ovo je tekst izmedju dvije slike</TextBlock>
-                    <Image Source="C:\Users\Matija\Documents\GitHub\Practice\OOPNET\Vjezbe11\Zadatak05\emoticon.png"
-                           Height="50" Width="50"/>
-                </StackPanel>
-                <Button.LayoutTransform>
-                    <RotateTransform CenterX="0.5" CenterY="0.5" Angle="-15"/>
-                </Button.LayoutTransform>
-            </Button>
-            
-            <TextBox Name="txtBoxPrvi" Width="100">
-                <TextBox.LayoutTransform>
-                    <RotateTransform Angle="15"/>
-                </TextBox.LayoutTransform>
-            </TextBox>
-            
-            <Label Name="lblPrvi" HorizontalAlignment="Left">
-                <Label.LayoutTransform>
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel>
+        <Button Width="200" Height="200" Click="Button_Click">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <RotateTransform Angle="-15"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+            <StackPanel>
+                <Image Source="C:\Users\Matija\Documents\GitHub\Practice\OOPNET\Vjezbe11\Zadatak05\MTG Blue.png"
+                       Height="50" Width="50"/>
+                <Label Content="Ovo je tekst izmedju dvije slike"/>
+                <Image Source="C:\Users\Matija\Documents\GitHub\Practice\OOPNET\Vjezbe11\Zadatak05\MTG Blue.png"
+                       Height="50" Width="50"/>
+            </StackPanel>
+        </Button>
+        <TextBox Name="txtBoks" Height="30" Width="100">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <RotateTransform Angle="45"/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <Label Name="lblLabela" Height="30" Width="100">
+            <Label.RenderTransform>
+                <TransformGroup>
                     <RotateTransform Angle="90"/>
-                </Label.LayoutTransform>
-            </Label>
-        </StackPanel>
-    </Grid>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+    </StackPanel>
 </Window>

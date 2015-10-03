@@ -1,0 +1,50 @@
+﻿<Window x:Class="Zadatak02.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel>
+        <Button Background="Red">
+            <TextBlock Text="0°"/>
+        </Button>
+        
+        <Button Background="Orange">
+            <TextBlock Text="45°">
+                <TextBlock.RenderTransform>
+                    <RotateTransform Angle="45"/>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+        </Button>
+        
+        <Button Background="Green">
+            <TextBlock Text="90°">
+                <TextBlock.RenderTransform>
+                    <RotateTransform Angle="90"/>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+        </Button>
+        
+        <Button Background="Blue">
+            <TextBlock Text="2x">
+                <TextBlock.LayoutTransform>
+                    <ScaleTransform ScaleY="2"/>
+                </TextBlock.LayoutTransform>
+            </TextBlock>
+        </Button>
+        
+        <Button Background="Yellow">
+            <TextBlock Text="I'm skewed">
+                <TextBlock.RenderTransform>
+                    <SkewTransform AngleX="15"/>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+        </Button>
+        
+        <Button Background="DarkBlue">
+            <TextBlock Text="I'm skewed also">
+                <TextBlock.LayoutTransform>
+                    <SkewTransform AngleY="15"/>
+                </TextBlock.LayoutTransform>
+            </TextBlock>
+        </Button>
+    </StackPanel>
+</Window>
