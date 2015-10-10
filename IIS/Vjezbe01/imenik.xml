@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<imenik>
+	<osoba oib="12345678901">
+		<ime>Matija</ime>
+		<prezime>Huremovic</prezime>
+		<email>matija.huremovic@gmail.com</email>
+		<adresa>
+			<ulica>Matice Hrvatske</ulica>
+			<kucniBroj>7</kucniBroj>
+			<mjesto>Velika Gorica</mjesto>
+			<postanskiBroj>10410</postanskiBroj>
+		</adresa>
+		<telefon>+385222</telefon>
+		<kategorija>Suradnici</kategorija>
+	</osoba>
+</imenik>
