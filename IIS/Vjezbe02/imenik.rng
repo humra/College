@@ -1,0 +1,63 @@
+<element name="imenik" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+	<zeroOrMore>
+		<element name="osoba">
+			<attribute name="oib">
+				<data type="string">
+					<param name="length">11</param>
+				</data>
+			</attribute>
+			<element name="ime">
+				<data type="string"/>
+			</element>
+			<optional>
+				<element name="ime">
+					<data type="string"/>
+				</element>
+			</optional>
+			<element name="prezime">
+				<data type="string"/>
+			</element>
+			<optional>
+				<element name="prezime">
+					<data type="string"/>
+				</element>
+			</optional>
+			<element name="email">
+				<data type="string"/>
+			</element>
+			<element name="adresa">
+				<element name="ulica">
+					<data type="string"/>
+				</element>
+				<element name="kucniBroj">
+					<data type="integer">
+						<param name="minInclusive">0</param>
+						<param name="maxInclusive">999</param>
+					</data>
+				</element>
+				<element name="mjesto">
+					<data type="string">
+						<param name="maxLength">50</param>
+					</data>
+				</element>
+				<element name="postanskiBroj">
+					<data type="integer">
+						<param name="maxInclusive">99999</param>
+						<param name="minInclusive">10000</param>
+					</data>
+				</element>
+			</element>
+			<element name="telefon">
+				<data type="string"/>
+			</element>
+			<element name="kategorija">
+				<choice>
+					<value>Obitelj</value>
+					<value>Prijatelji</value>
+					<value>Suradnici</value>
+					<value>Bez kategorije</value>
+				</choice>
+			</element>
+		</element>		
+	</zeroOrMore>
+</element>

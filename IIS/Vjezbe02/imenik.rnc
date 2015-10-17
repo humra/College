@@ -1,0 +1,26 @@
+element imenik {
+	element osoba {
+		attribute oib { 
+			xsd:string { length="11" }
+		},
+		element ime { xsd:string },
+		element ime { xsd:string }?,
+		element prezime { xsd:string },
+		element prezime { xsd:string }?,
+		element email { xsd:string },
+		element adresa {
+			element ulica { xsd:string },
+			element kucniBroj {
+				xsd:integer { maxInclusive="0" minInclusive="999" }
+			},
+			element mjesto {
+				xsd:string { maxLength="50" }
+			},
+			element postanskiBroj {
+				xsd:integer { maxInclusive="10000" minInclusive="99999" }
+			}
+		},
+		element telefon { xsd:string },
+		element kategorija { "Obitelj" | "Prijatelji" | "Suradnici" | "Bez kategorije" }
+	}*
+}
