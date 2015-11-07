@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<imenik>
+	<osoba oib="12345678901">
+		<ime>ImePrvo</ime>
+		<prezime>PrezimePrvo</prezime>
+		<email>prvo@racunarstvo.hr</email>
+		<adresa>
+			<ulica>Matice Hrvatske</ulica>
+			<kucniBroj>7</kucniBroj>
+			<mjesto>Velika Gorica</mjesto>
+			<postanskiBroj>10410</postanskiBroj>
+		</adresa>
+		<telefon>+385222</telefon>
+		<kategorija>Suradnici</kategorija>
+	</osoba>
+	<osoba oib="23456789012">
+		<ime>ImeDrugo</ime>
+		<prezime>PrezimeDrugo</prezime>
+		<email>drugo@racunarstvo.hr</email>
+		<adresa>
+			<ulica>Zagrebacka</ulica>
+			<kucniBroj>77</kucniBroj>
+			<mjesto>Velika Gorica</mjesto>
+			<postanskiBroj>10410</postanskiBroj>
+		</adresa>
+		<telefon>+385111</telefon>
+		<kategorija>Suradnici</kategorija>
+	</osoba>
+		<osoba oib="34567890123">
+		<ime>ImeTrece</ime>
+		<prezime>PrezimeTrece</prezime>
+		<email>trece@racunarstvo.hr</email>
+		<adresa>
+			<ulica>Vukovarska</ulica>
+			<kucniBroj>17</kucniBroj>
+			<mjesto>Zagreb</mjesto>
+			<postanskiBroj>10000</postanskiBroj>
+		</adresa>
+		<telefon>+385333</telefon>
+		<kategorija>Suradnici</kategorija>
+	</osoba>
+		<osoba oib="45678901234">
+		<ime>ImeCetvrto</ime>
+		<prezime>PrezimeCetvrto</prezime>
+		<email>cetvrto@racunarstvo.hr</email>
+		<adresa>
+			<ulica>Savska</ulica>
+			<kucniBroj>58</kucniBroj>
+			<mjesto>Zagreb</mjesto>
+			<postanskiBroj>10000</postanskiBroj>
+		</adresa>
+		<telefon>+385444</telefon>
+		<kategorija>Suradnici</kategorija>
+	</osoba>
+		<osoba oib="56789012345">
+		<ime>ImePeto</ime>
+		<prezime>PrezimePeto</prezime>
+		<email>peto@racunarstvo.hr</email>
+		<adresa>
+			<ulica>Odranska</ulica>
+			<kucniBroj>1</kucniBroj>
+			<mjesto>Zagreb</mjesto>
+			<postanskiBroj>10000</postanskiBroj>
+		</adresa>
+		<telefon>+385555</telefon>
+		<kategorija>Suradnici</kategorija>
+	</osoba>
+		<osoba oib="67890123456">
+		<ime>ImeSesto</ime>
+		<prezime>PrezimeSesto</prezime>
+		<email>sesto@racunarstvo.hr</email>
+		<adresa>
+			<ulica>Zvonimirova</ulica>
+			<kucniBroj>82</kucniBroj>
+			<mjesto>Zagreb</mjesto>
+			<postanskiBroj>10000</postanskiBroj>
+		</adresa>
+		<telefon>+385666</telefon>
+		<kategorija>Suradnici</kategorija>
+	</osoba>
+		<osoba oib="78901234567">
+		<ime>ImeSedmo</ime>
+		<prezime>PrezimeSedmo</prezime>
+		<email>sedmo@racunarstvo.hr</email>
+		<adresa>
+			<ulica>Domobranska</ulica>
+			<kucniBroj>11</kucniBroj>
+			<mjesto>Zagreb</mjesto>
+			<postanskiBroj>10000</postanskiBroj>
+		</adresa>
+		<telefon>+385777</telefon>
+		<kategorija>Suradnici</kategorija>
+	</osoba>
+		<osoba oib="89012345678">
+		<ime>ImeOsmo</ime>
+		<prezime>PrezimeOsmo</prezime>
+		<email>osmo@gmail.com</email>
+		<adresa>
+			<ulica>Kapucinska</ulica>
+			<kucniBroj>42</kucniBroj>
+			<mjesto>Zagreb</mjesto>
+			<postanskiBroj>10000</postanskiBroj>
+		</adresa>
+		<telefon>+385888</telefon>
+		<kategorija>Suradnici</kategorija>
+	</osoba>
+		<osoba oib="90123456789">
+		<ime>ImeDeveto</ime>
+		<prezime>PrezimeDeveto</prezime>
+		<email>deveto@gmail.com</email>
+		<adresa>
+			<ulica>Nikole Tesle</ulica>
+			<kucniBroj>29</kucniBroj>
+			<mjesto>Velika Gorica</mjesto>
+			<postanskiBroj>10410</postanskiBroj>
+		</adresa>
+		<telefon>+385999</telefon>
+		<kategorija>Suradnici</kategorija>
+	</osoba>
+		<osoba oib="01234567890">
+		<ime>ImeDeseto</ime>
+		<prezime>PrezimeDeseto</prezime>
+		<email>deseto@gmail.com</email>
+		<adresa>
+			<ulica>Zagrebacka</ulica>
+			<kucniBroj>70</kucniBroj>
+			<mjesto>Velika Gorica</mjesto>
+			<postanskiBroj>10410</postanskiBroj>
+		</adresa>
+		<telefon>+385000</telefon>
+		<kategorija>Suradnici</kategorija>
+	</osoba>
+</imenik>
