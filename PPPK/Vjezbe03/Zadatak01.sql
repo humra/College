@@ -1,0 +1,59 @@
+CREATE DATABASE PPPK
+GO
+
+USE PPPK
+GO
+
+CREATE TABLE Drzava 
+(
+	IDDrzava int PRIMARY KEY IDENTITY(1, 1),
+	Naziv nvarchar(max) NOT NULL
+)
+GO
+
+CREATE TABLE Grad
+(
+	IDGrad int PRIMARY KEY IDENTITY(1, 1),
+	Naziv nvarchar(max) NOT NULL,
+	DrzavaID int FOREIGN KEY REFERENCES Drzava (IDDrzava)
+)
+GO
+
+CREATE PROCEDURE DohvatiDrzave
+AS
+BEGIN
+	SELECT * FROM Drzava
+END
+GO
+
+CREATE PROCEDURE DohvatiGradove
+@IDDrzava int
+AS
+BEGIN
+	SELECT * 
+	FROM Grad
+	WHERE Grad.DrzavaID = @IDDrzava
+END
+GO
+
+CREATE PROCEDURE UnesiDrzavu
+@Naziv nvarchar(max)
+AS
+BEGIN
+	BEGIN TRANSACTION
+		INSERT INTO Drzava (Naziv)
+		VALUES (@Naziv)
+	COMMIT TRANSACTION
+END
+GO
+
+CREATE PROCEDURE UnesiGrad
+@Naziv nvarchar(max), @DrzavaID int
+AS
+BEGIN
+	BEGIN TRANSACTION
+		INSERT INTO Grad (Naziv, DrzavaID) 
+		VALUES (@Naziv, @DrzavaID)
+	COMMIT TRANSACTION
+END
+GO
