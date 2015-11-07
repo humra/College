@@ -1,0 +1,6 @@
+C:\Users\Matija\Documents\GitHub\Practice\IIS\IISVjezbe05\CSharp\IISVjezbe05\IISVjezbe05\bin\Debug\IISVjezbe05.exe.config
+C:\Users\Matija\Documents\GitHub\Practice\IIS\IISVjezbe05\CSharp\IISVjezbe05\IISVjezbe05\bin\Debug\IISVjezbe05.exe
+C:\Users\Matija\Documents\GitHub\Practice\IIS\IISVjezbe05\CSharp\IISVjezbe05\IISVjezbe05\bin\Debug\IISVjezbe05.pdb
+C:\Users\Matija\Documents\GitHub\Practice\IIS\IISVjezbe05\CSharp\IISVjezbe05\IISVjezbe05\obj\Debug\IISVjezbe05.csprojResolveAssemblyReference.cache
+C:\Users\Matija\Documents\GitHub\Practice\IIS\IISVjezbe05\CSharp\IISVjezbe05\IISVjezbe05\obj\Debug\IISVjezbe05.exe
+C:\Users\Matija\Documents\GitHub\Practice\IIS\IISVjezbe05\CSharp\IISVjezbe05\IISVjezbe05\obj\Debug\IISVjezbe05.pdb
