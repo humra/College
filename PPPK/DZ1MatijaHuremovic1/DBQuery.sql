@@ -1,0 +1,33 @@
+CREATE DATABASE PPPKMatijaHuremovic
+GO
+
+USE PPPKMatijaHuremovic
+GO
+
+CREATE TABLE Drzava
+(
+	IDDrzava int PRIMARY KEY IDENTITY(1, 1),
+	Naziv nvarchar(max) NOT NULL
+)
+
+CREATE PROCEDURE BrisiDrzavu 
+(
+	@Naziv nvarchar(max)
+)
+AS
+BEGIN TRANSACTION
+	DELETE FROM Drzava
+	WHERE Naziv = @Naziv
+COMMIT TRANSACTION
+GO
+
+CREATE PROCEDURE DodajDrzavu
+(
+	@Naziv nvarchar(max)
+)
+AS
+BEGIN TRANSACTION
+	INSERT INTO Drzava
+	VALUES (@Naziv)
+COMMIT TRANSACTION
+GO
