@@ -2,12 +2,9 @@ package racunarstvo.pppk;
 
 import com.microsoft.sqlserver.jdbc.SQLServerDataSource;
 import java.sql.Connection;
-import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import javax.sql.DataSource;
 
 public class DataBaseReader {
@@ -15,8 +12,8 @@ public class DataBaseReader {
     public static void main(String[] args) {
         DataSource ds = kreirajDataSource();
         
-//        ispisiPodatkeOStudentima(ds);
-//        ispisiKolegije(ds);
+        ispisiPodatkeOStudentima(ds);
+        ispisiKolegije(ds);
         povecajECTS(ds);
     }
 
