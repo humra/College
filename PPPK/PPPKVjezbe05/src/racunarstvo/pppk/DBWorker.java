@@ -14,11 +14,17 @@ import javax.sql.DataSource;
 
 public class DBWorker {
 
+    final static String _INSERT = "INSERT INTO Kolegij (Naziv, Semestar, ECTS) VALUES (?, ?, ?)";
+    final static String _UPDATE = "UPDATE Kolegij SET ECTS = ? WHERE IDKolegij = ?";
+    final static String _DELETE = "DELETE FROM Kolegij WHERE ECTS = ?";
+    
     public static void main(String[] args) {
         DataSource ds = kreirajDataSource();
         
         kreirajProceduruDohvatStudenata(ds);
         dohvatiStudenteZaKolegij(ds, 2);
+        dodajNoveKolegije(ds);
+        promijeniECTS(ds);
     }
 
     private static DataSource kreirajDataSource() {
@@ -79,6 +85,51 @@ public class DBWorker {
         
         for(Student s : studenti) {
             System.out.println(String.format("%d - %s %s", s.IDStudent, s.Ime, s.Prezime));
+        }
+    }
+
+    private static void dodajNoveKolegije(DataSource ds) {
+        ArrayList<Kolegij> kolegiji = kolegijiZaDodati();
+        
+        try(Connection con = ds.getConnection(); CallableStatement st = con.prepareCall(_INSERT)) {
+            for(Kolegij k : kolegiji) {
+                st.setString(1, k.Naziv);
+                st.setInt(2, k.Semestar);
+                st.setInt(3, k.ECTS);
+                
+                st.executeUpdate();
+            }
+        }
+        catch (SQLException ex) {
+            System.out.println(ex.getMessage());
+        }
+    }
+
+    private static ArrayList<Kolegij> kolegijiZaDodati() {
+        ArrayList<Kolegij> temp = new ArrayList<Kolegij>();
+        
+        for(int i = 1; i <= 5; i++) {
+            Kolegij tmp = new Kolegij();
+            tmp.ECTS = i * 2;
+            tmp.Naziv = "Kolegij" + i;
+            tmp.Semestar = i;
+            
+            temp.add(tmp);
+        }
+        
+        return temp;
+    }
+
+    private static void promijeniECTS(DataSource ds) {
+        try(Connection con = ds.getConnection(); CallableStatement st = con.prepareCall(_UPDATE)) {
+            for(int i = 5; i < 10; i++) {
+                st.setInt(1, 10);
+                st.setInt(2, i);
+                st.executeUpdate();
+            }
+        }
+        catch (SQLException ex) {
+            System.out.println(ex.getMessage());
         }
     }
 }
