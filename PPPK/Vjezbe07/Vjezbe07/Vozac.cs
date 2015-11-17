@@ -6,19 +6,13 @@ using System.Threading.Tasks;
 
 namespace Vjezbe07
 {
-    class Vozac
+    public class Vozac
     {
         public int ID { get; set; }
         public string Ime { get; set; }
         public string Prezime { get; set; }
+        public string PunoIme { get { return Ime + " " + Prezime; } }
 
         public Vozac() { }
-
-        public Vozac(int ID, string Ime, string Prezime)
-        {
-            this.ID = ID;
-            this.Ime = Ime;
-            this.Prezime = Prezime;
-        }
     }
 }

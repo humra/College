@@ -16,7 +16,7 @@ namespace Vjezbe07
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Popis());
+            Application.Run(new VozaciAutomobili());
         }
     }
 }

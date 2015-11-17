@@ -2,8 +2,9 @@ C:\Users\Matija\Documents\GitHub\Practice\PPPK\Vjezbe07\Vjezbe07\bin\Debug\Vjezb
 C:\Users\Matija\Documents\GitHub\Practice\PPPK\Vjezbe07\Vjezbe07\bin\Debug\Vjezbe07.exe
 C:\Users\Matija\Documents\GitHub\Practice\PPPK\Vjezbe07\Vjezbe07\bin\Debug\Vjezbe07.pdb
 C:\Users\Matija\Documents\GitHub\Practice\PPPK\Vjezbe07\Vjezbe07\obj\Debug\Vjezbe07.csprojResolveAssemblyReference.cache
-C:\Users\Matija\Documents\GitHub\Practice\PPPK\Vjezbe07\Vjezbe07\obj\Debug\Vjezbe07.Popis.resources
 C:\Users\Matija\Documents\GitHub\Practice\PPPK\Vjezbe07\Vjezbe07\obj\Debug\Vjezbe07.Properties.Resources.resources
+C:\Users\Matija\Documents\GitHub\Practice\PPPK\Vjezbe07\Vjezbe07\obj\Debug\Vjezbe07.VozaciAutomobili.resources
 C:\Users\Matija\Documents\GitHub\Practice\PPPK\Vjezbe07\Vjezbe07\obj\Debug\Vjezbe07.csproj.GenerateResource.Cache
 C:\Users\Matija\Documents\GitHub\Practice\PPPK\Vjezbe07\Vjezbe07\obj\Debug\Vjezbe07.exe
 C:\Users\Matija\Documents\GitHub\Practice\PPPK\Vjezbe07\Vjezbe07\obj\Debug\Vjezbe07.pdb
+C:\Users\Matija\Documents\GitHub\Practice\PPPK\Vjezbe07\Vjezbe07\obj\Debug\Vjezbe07.NoviUredi.resources
