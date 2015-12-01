@@ -5,17 +5,29 @@ public class Student {
     private String prezime;
     private int id;
     
-    private String getIme() {
+    public String getIme() {
         return this.ime;
     }
     
-    private String getPrezime() {
+    public String getPrezime() {
         return this.prezime;
     }
     
-    public Student(String ime, String prezime, int id) {
+    public Student(String ime, String prezime) {
         this.ime = ime;
         this.prezime = prezime;
-        this.id = id;
+    }
+    
+    private String createPin() {
+        return "";
+    }
+    
+    private int addToStudentServis(int ssId) {
+        return 0;
+    }
+    
+    @Override
+    public String toString() {
+        return String.format("[%s, %s]", ime, prezime);
     }
 }
