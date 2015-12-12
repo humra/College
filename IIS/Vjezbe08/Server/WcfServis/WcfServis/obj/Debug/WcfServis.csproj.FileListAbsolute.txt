@@ -1,0 +1,9 @@
+C:\Users\Matija\Documents\GitHub\Practice\IIS\Vjezbe08\Server\WcfServis\WcfServis\bin\WcfServis.dll
+C:\Users\Matija\Documents\GitHub\Practice\IIS\Vjezbe08\Server\WcfServis\WcfServis\bin\WcfServis.pdb
+C:\Users\Matija\Documents\GitHub\Practice\IIS\Vjezbe08\Server\WcfServis\WcfServis\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Matija\Documents\GitHub\Practice\IIS\Vjezbe08\Server\WcfServis\WcfServis\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\Matija\Documents\GitHub\Practice\IIS\Vjezbe08\Server\WcfServis\WcfServis\bin\SqlHelper.dll
+C:\Users\Matija\Documents\GitHub\Practice\IIS\Vjezbe08\Server\WcfServis\WcfServis\bin\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\Matija\Documents\GitHub\Practice\IIS\Vjezbe08\Server\WcfServis\WcfServis\bin\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Users\Matija\Documents\GitHub\Practice\IIS\Vjezbe08\Server\WcfServis\WcfServis\obj\Debug\WcfServis.dll
+C:\Users\Matija\Documents\GitHub\Practice\IIS\Vjezbe08\Server\WcfServis\WcfServis\obj\Debug\WcfServis.pdb
