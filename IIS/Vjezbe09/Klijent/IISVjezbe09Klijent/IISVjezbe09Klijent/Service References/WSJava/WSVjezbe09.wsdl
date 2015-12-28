@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:tns="http://java.racunarstvo/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" name="WSVjezbe09" targetNamespace="http://java.racunarstvo/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://localhost:8080/IISVjezbe09Server/WSVjezbe09?xsd=1" namespace="http://java.racunarstvo/" />
+    </xsd:schema>
+  </types>
+  <message name="hello">
+    <part name="parameters" element="tns:hello" />
+  </message>
+  <message name="helloResponse">
+    <part name="parameters" element="tns:helloResponse" />
+  </message>
+  <message name="getStudentById">
+    <part name="parameters" element="tns:getStudentById" />
+  </message>
+  <message name="getStudentByIdResponse">
+    <part name="parameters" element="tns:getStudentByIdResponse" />
+  </message>
+  <portType name="WSVjezbe09">
+    <operation name="hello">
+      <input wsam:Action="http://java.racunarstvo/WSVjezbe09/helloRequest" message="tns:hello" />
+      <output wsam:Action="http://java.racunarstvo/WSVjezbe09/helloResponse" message="tns:helloResponse" />
+    </operation>
+    <operation name="getStudentById">
+      <input wsam:Action="http://java.racunarstvo/WSVjezbe09/getStudentByIdRequest" message="tns:getStudentById" />
+      <output wsam:Action="http://java.racunarstvo/WSVjezbe09/getStudentByIdResponse" message="tns:getStudentByIdResponse" />
+    </operation>
+  </portType>
+  <binding name="WSVjezbe09PortBinding" type="tns:WSVjezbe09">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="hello">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getStudentById">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="WSVjezbe09">
+    <port name="WSVjezbe09Port" binding="tns:WSVjezbe09PortBinding">
+      <soap:address location="http://localhost:8080/IISVjezbe09Server/WSVjezbe09" />
+    </port>
+  </service>
+</definitions>
