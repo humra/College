@@ -1,0 +1,9 @@
+C:\Users\Matija\Documents\GitHub\Practice\PPPK\Vjezbe10\Vjezbe10\bin\Debug\Vjezbe10.exe.config
+C:\Users\Matija\Documents\GitHub\Practice\PPPK\Vjezbe10\Vjezbe10\bin\Debug\Vjezbe10.exe
+C:\Users\Matija\Documents\GitHub\Practice\PPPK\Vjezbe10\Vjezbe10\bin\Debug\Vjezbe10.pdb
+C:\Users\Matija\Documents\GitHub\Practice\PPPK\Vjezbe10\Vjezbe10\obj\Debug\Vjezbe10.csprojResolveAssemblyReference.cache
+C:\Users\Matija\Documents\GitHub\Practice\PPPK\Vjezbe10\Vjezbe10\obj\Debug\Vjezbe10.Form1.resources
+C:\Users\Matija\Documents\GitHub\Practice\PPPK\Vjezbe10\Vjezbe10\obj\Debug\Vjezbe10.Properties.Resources.resources
+C:\Users\Matija\Documents\GitHub\Practice\PPPK\Vjezbe10\Vjezbe10\obj\Debug\Vjezbe10.csproj.GenerateResource.Cache
+C:\Users\Matija\Documents\GitHub\Practice\PPPK\Vjezbe10\Vjezbe10\obj\Debug\Vjezbe10.exe
+C:\Users\Matija\Documents\GitHub\Practice\PPPK\Vjezbe10\Vjezbe10\obj\Debug\Vjezbe10.pdb
