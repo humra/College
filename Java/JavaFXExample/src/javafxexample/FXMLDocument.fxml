@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxexample.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <TextArea fx:id="txtArea" editable="false" layoutX="8.0" prefHeight="200.0" prefWidth="200.0" text="TEKST" />
+      <Button layoutX="215.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleButtonAction" text="Boja pozadine" />
+      <ColorPicker fx:id="colorPicker" layoutX="215.0" layoutY="129.0" onAction="#setTextBackground" />
+    </children>
+</AnchorPane>

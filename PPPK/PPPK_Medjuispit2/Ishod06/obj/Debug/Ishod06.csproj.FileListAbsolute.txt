@@ -1,0 +1,9 @@
+C:\Users\Matija\Documents\GitHub\Practice\PPPK\PPPK_Medjuispit2\Ishod06\bin\Debug\Ishod06.exe.config
+C:\Users\Matija\Documents\GitHub\Practice\PPPK\PPPK_Medjuispit2\Ishod06\bin\Debug\Ishod06.exe
+C:\Users\Matija\Documents\GitHub\Practice\PPPK\PPPK_Medjuispit2\Ishod06\bin\Debug\Ishod06.pdb
+C:\Users\Matija\Documents\GitHub\Practice\PPPK\PPPK_Medjuispit2\Ishod06\obj\Debug\Ishod06.csprojResolveAssemblyReference.cache
+C:\Users\Matija\Documents\GitHub\Practice\PPPK\PPPK_Medjuispit2\Ishod06\obj\Debug\Ishod06.Form1.resources
+C:\Users\Matija\Documents\GitHub\Practice\PPPK\PPPK_Medjuispit2\Ishod06\obj\Debug\Ishod06.Properties.Resources.resources
+C:\Users\Matija\Documents\GitHub\Practice\PPPK\PPPK_Medjuispit2\Ishod06\obj\Debug\Ishod06.csproj.GenerateResource.Cache
+C:\Users\Matija\Documents\GitHub\Practice\PPPK\PPPK_Medjuispit2\Ishod06\obj\Debug\Ishod06.exe
+C:\Users\Matija\Documents\GitHub\Practice\PPPK\PPPK_Medjuispit2\Ishod06\obj\Debug\Ishod06.pdb

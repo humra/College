@@ -1,0 +1,13 @@
+C:\Users\Matija\Documents\GitHub\Practice\PPPK\PPPK_Medjuispit2\Ishod08\bin\Debug\Ishod08.exe.config
+C:\Users\Matija\Documents\GitHub\Practice\PPPK\PPPK_Medjuispit2\Ishod08\bin\Debug\Ishod08.exe
+C:\Users\Matija\Documents\GitHub\Practice\PPPK\PPPK_Medjuispit2\Ishod08\bin\Debug\Ishod08.pdb
+C:\Users\Matija\Documents\GitHub\Practice\PPPK\PPPK_Medjuispit2\Ishod08\bin\Debug\EntityFramework.dll
+C:\Users\Matija\Documents\GitHub\Practice\PPPK\PPPK_Medjuispit2\Ishod08\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Matija\Documents\GitHub\Practice\PPPK\PPPK_Medjuispit2\Ishod08\bin\Debug\EntityFramework.xml
+C:\Users\Matija\Documents\GitHub\Practice\PPPK\PPPK_Medjuispit2\Ishod08\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Matija\Documents\GitHub\Practice\PPPK\PPPK_Medjuispit2\Ishod08\obj\Debug\Ishod08.csprojResolveAssemblyReference.cache
+C:\Users\Matija\Documents\GitHub\Practice\PPPK\PPPK_Medjuispit2\Ishod08\obj\Debug\Ishod08.Form1.resources
+C:\Users\Matija\Documents\GitHub\Practice\PPPK\PPPK_Medjuispit2\Ishod08\obj\Debug\Ishod08.Properties.Resources.resources
+C:\Users\Matija\Documents\GitHub\Practice\PPPK\PPPK_Medjuispit2\Ishod08\obj\Debug\Ishod08.csproj.GenerateResource.Cache
+C:\Users\Matija\Documents\GitHub\Practice\PPPK\PPPK_Medjuispit2\Ishod08\obj\Debug\Ishod08.exe
+C:\Users\Matija\Documents\GitHub\Practice\PPPK\PPPK_Medjuispit2\Ishod08\obj\Debug\Ishod08.pdb

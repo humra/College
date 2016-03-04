@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ishod04", "Ishod04\Ishod04.csproj", "{0DE28D42-CA43-40AB-8874-050E6F3223C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ishod03", "Ishod03\Ishod03.csproj", "{DA1466D5-55ED-48DA-9C1D-F257260DFD26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ishod06", "Ishod06\Ishod06.csproj", "{05229EE6-2DE6-425D-A1F3-DE258DD23509}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ishod08", "Ishod08\Ishod08.csproj", "{E8340195-82BC-4F68-9BD2-C212CE53D8FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DE28D42-CA43-40AB-8874-050E6F3223C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DE28D42-CA43-40AB-8874-050E6F3223C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DE28D42-CA43-40AB-8874-050E6F3223C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DE28D42-CA43-40AB-8874-050E6F3223C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA1466D5-55ED-48DA-9C1D-F257260DFD26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA1466D5-55ED-48DA-9C1D-F257260DFD26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA1466D5-55ED-48DA-9C1D-F257260DFD26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA1466D5-55ED-48DA-9C1D-F257260DFD26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05229EE6-2DE6-425D-A1F3-DE258DD23509}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05229EE6-2DE6-425D-A1F3-DE258DD23509}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05229EE6-2DE6-425D-A1F3-DE258DD23509}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05229EE6-2DE6-425D-A1F3-DE258DD23509}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8340195-82BC-4F68-9BD2-C212CE53D8FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8340195-82BC-4F68-9BD2-C212CE53D8FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8340195-82BC-4F68-9BD2-C212CE53D8FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8340195-82BC-4F68-9BD2-C212CE53D8FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Data.6.0.1304.0\lib\NET45
+	EndGlobalSection
+EndGlobal

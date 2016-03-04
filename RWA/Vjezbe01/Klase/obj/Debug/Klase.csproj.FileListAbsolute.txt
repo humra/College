@@ -1,5 +1,0 @@
-C:\Users\Matija\Documents\GitHub\Practice\RWA\Vjezbe01\Klase\bin\Debug\Klase.dll
-C:\Users\Matija\Documents\GitHub\Practice\RWA\Vjezbe01\Klase\bin\Debug\Klase.pdb
-C:\Users\Matija\Documents\GitHub\Practice\RWA\Vjezbe01\Klase\obj\Debug\Klase.csprojResolveAssemblyReference.cache
-C:\Users\Matija\Documents\GitHub\Practice\RWA\Vjezbe01\Klase\obj\Debug\Klase.dll
-C:\Users\Matija\Documents\GitHub\Practice\RWA\Vjezbe01\Klase\obj\Debug\Klase.pdb
