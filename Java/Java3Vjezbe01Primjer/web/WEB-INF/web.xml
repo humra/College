@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>calc</servlet-name>
+        <servlet-class>hr.vspr.java3.vjezbe01.controller.CalcServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>tablica</servlet-name>
+        <servlet-class>hr.vspr.java3.vjezbe01.controller.tablica</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>PicServlet</servlet-name>
+        <servlet-class>hr.vspr.java3.vjezbe01.controller.PicServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>calc</servlet-name>
+        <url-pattern>/calc</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>tablica</servlet-name>
+        <url-pattern>/tablica</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>PicServlet</servlet-name>
+        <url-pattern>/PicServlet</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
