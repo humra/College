@@ -73,6 +73,7 @@ C:\Users\Matija\Documents\GitHub\Practice\RWA\Vjezbe02\Vjezbe02\bin\Microsoft.Ow
 C:\Users\Matija\Documents\GitHub\Practice\RWA\Vjezbe02\Vjezbe02\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\Matija\Documents\GitHub\Practice\RWA\Vjezbe02\Vjezbe02\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\Matija\Documents\GitHub\Practice\RWA\Vjezbe02\Vjezbe02\bin\Microsoft.Owin.Security.OAuth.xml
-C:\Users\Matija\Documents\GitHub\Practice\RWA\Vjezbe02\Vjezbe02\obj\Debug\Vjezbe02.csprojResolveAssemblyReference.cache
 C:\Users\Matija\Documents\GitHub\Practice\RWA\Vjezbe02\Vjezbe02\obj\Debug\Vjezbe02.dll
 C:\Users\Matija\Documents\GitHub\Practice\RWA\Vjezbe02\Vjezbe02\obj\Debug\Vjezbe02.pdb
+C:\Users\Matija\Documents\GitHub\Practice\RWA\Vjezbe02\Vjezbe02\bin\Vjezbe02.dll.config
+C:\Users\Matija\Documents\GitHub\Practice\RWA\Vjezbe02\Vjezbe02\obj\Debug\Vjezbe02.csprojResolveAssemblyReference.cache
