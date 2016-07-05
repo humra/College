@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AdventureWorksOBPModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Drzava">
+    <Key>
+      <PropertyRef Name="IDDrzava" />
+    </Key>
+    <Property Name="IDDrzava" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Naziv" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Grads" Relationship="Self.FK_Grad_Drzava" FromRole="Drzava" ToRole="Grad" />
+  </EntityType>
+  <EntityType Name="Grad">
+    <Key>
+      <PropertyRef Name="IDGrad" />
+    </Key>
+    <Property Name="IDGrad" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Naziv" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DrzavaID" Type="Int32" />
+    <NavigationProperty Name="Drzava" Relationship="Self.FK_Grad_Drzava" FromRole="Grad" ToRole="Drzava" />
+  </EntityType>
+  <Association Name="FK_Grad_Drzava">
+    <End Role="Drzava" Type="Self.Drzava" Multiplicity="0..1" />
+    <End Role="Grad" Type="Self.Grad" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Drzava">
+        <PropertyRef Name="IDDrzava" />
+      </Principal>
+      <Dependent Role="Grad">
+        <PropertyRef Name="DrzavaID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="AdventureWorksOBPEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Drzavas" EntityType="Self.Drzava" />
+    <EntitySet Name="Grads" EntityType="Self.Grad" />
+    <AssociationSet Name="FK_Grad_Drzava" Association="Self.FK_Grad_Drzava">
+      <End Role="Drzava" EntitySet="Drzavas" />
+      <End Role="Grad" EntitySet="Grads" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
