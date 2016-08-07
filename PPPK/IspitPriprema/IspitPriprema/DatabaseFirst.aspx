@@ -17,6 +17,14 @@
         <br />
         <asp:ListBox ID="lbKupci" runat="server" Height="208px" Width="220px"></asp:ListBox>
     
+        <br />
+        <br />
+        <asp:TextBox ID="txtNoviGrad" runat="server" Width="212px"></asp:TextBox>
+&nbsp;&nbsp;&nbsp;
+        <asp:Button ID="btnDodajGrad" runat="server" OnClick="btnDodajGrad_Click" Text="DODAJ GRAD" Width="113px" />
+&nbsp;&nbsp;&nbsp;
+        <asp:Button ID="btnBrisiGrad" runat="server" OnClick="btnBrisiGrad_Click" Text="BRISI GRAD" Width="107px" />
+    
     </div>
     </form>
 </body>

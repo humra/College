@@ -48,5 +48,30 @@ namespace IspitPriprema
         {
             updateKupci();
         }
+
+        protected void btnDodajGrad_Click(object sender, EventArgs e)
+        {
+            Grad temp = new Grad();
+            temp.DrzavaID = 1;
+            temp.Naziv = txtNoviGrad.Text;
+
+            db.Grads.Add(temp);
+            db.SaveChanges();
+        }
+
+        protected void btnBrisiGrad_Click(object sender, EventArgs e)
+        {
+            var gradovi = (from g in db.Grads select g).ToList();
+
+            foreach(Grad g in gradovi)
+            {
+                if(g.Naziv.Equals(txtNoviGrad.Text))
+                {
+                    db.Grads.Remove(g);
+                }
+            }
+
+            db.SaveChanges();
+        }
     }
 }
