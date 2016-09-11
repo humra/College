@@ -1,0 +1,67 @@
+﻿@model Vjezbe09.Models.KalkulatorData
+
+@{
+    ViewBag.Title = "KalkulatorResult";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>KalkulatorResult</h2>
+
+<h2>
+    @{
+        var rezultat = 0;
+
+        switch(@Model.operacija)
+        {
+            case 'z':
+                rezultat = @Model.a + @Model.b;
+                break;
+            case 'd':
+                rezultat = @Model.a / @Model.b;
+                break;
+            case 'o':
+                rezultat = @Model.a - @Model.b;
+                break;
+            case 'm':
+                rezultat = @Model.a * @Model.b;
+                break;
+
+        }
+        <text>Rezultat je: </text> @rezultat.ToString()
+    }
+</h2>
+
+<div>
+    <h4>KalkulatorData</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.operacija)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.operacija)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.a)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.a)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.b)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.b)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
