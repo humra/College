@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="FarmaKravaModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Krava">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Ime" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Pasmina" Type="int" />
+    <Property Name="DatumRodjenja" Type="date" Nullable="false" />
+    <Property Name="VeterinarskiBroj" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="BrojTeladi" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Pasmina">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Naziv" Type="nvarchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ProizvodnaMlijeka">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="KravaID" Type="int" Nullable="false" />
+    <Property Name="Datum" Type="date" Nullable="false" />
+    <Property Name="KolicinaMlijeka" Type="int" Nullable="false" />
+    <Property Name="ProsjecniPostotakMasnoce" Type="float" Nullable="false" />
+    <Property Name="ProsjecniPostotakMikroorganizama" Type="float" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <Association Name="FK__Krava__Pasmina__173876EA">
+    <End Role="Pasmina" Type="Self.Pasmina" Multiplicity="0..1" />
+    <End Role="Krava" Type="Self.Krava" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Pasmina">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Krava">
+        <PropertyRef Name="Pasmina" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Proizvodn__Krava__1B0907CE">
+    <End Role="Krava" Type="Self.Krava" Multiplicity="1" />
+    <End Role="ProizvodnaMlijeka" Type="Self.ProizvodnaMlijeka" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Krava">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ProizvodnaMlijeka">
+        <PropertyRef Name="KravaID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="FarmaKravaModelStoreContainer">
+    <EntitySet Name="Krava" EntityType="Self.Krava" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Pasmina" EntityType="Self.Pasmina" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ProizvodnaMlijeka" EntityType="Self.ProizvodnaMlijeka" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Krava__Pasmina__173876EA" Association="Self.FK__Krava__Pasmina__173876EA">
+      <End Role="Pasmina" EntitySet="Pasmina" />
+      <End Role="Krava" EntitySet="Krava" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Proizvodn__Krava__1B0907CE" Association="Self.FK__Proizvodn__Krava__1B0907CE">
+      <End Role="Krava" EntitySet="Krava" />
+      <End Role="ProizvodnaMlijeka" EntitySet="ProizvodnaMlijeka" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,14 @@
+D:\Github\Practice\PrakticniIspit\PrakticniIspit\FarmaKrava\bin\Debug\FarmaKrava.exe.config
+D:\Github\Practice\PrakticniIspit\PrakticniIspit\FarmaKrava\bin\Debug\FarmaKrava.exe
+D:\Github\Practice\PrakticniIspit\PrakticniIspit\FarmaKrava\bin\Debug\FarmaKrava.pdb
+D:\Github\Practice\PrakticniIspit\PrakticniIspit\FarmaKrava\bin\Debug\EntityFramework.dll
+D:\Github\Practice\PrakticniIspit\PrakticniIspit\FarmaKrava\bin\Debug\EntityFramework.SqlServer.dll
+D:\Github\Practice\PrakticniIspit\PrakticniIspit\FarmaKrava\bin\Debug\EntityFramework.xml
+D:\Github\Practice\PrakticniIspit\PrakticniIspit\FarmaKrava\bin\Debug\EntityFramework.SqlServer.xml
+D:\Github\Practice\PrakticniIspit\PrakticniIspit\FarmaKrava\obj\Debug\FarmaKrava.csprojResolveAssemblyReference.cache
+D:\Github\Practice\PrakticniIspit\PrakticniIspit\FarmaKrava\obj\Debug\FarmaKrava.Form1.resources
+D:\Github\Practice\PrakticniIspit\PrakticniIspit\FarmaKrava\obj\Debug\FarmaKrava.Properties.Resources.resources
+D:\Github\Practice\PrakticniIspit\PrakticniIspit\FarmaKrava\obj\Debug\FarmaKrava.csproj.GenerateResource.Cache
+D:\Github\Practice\PrakticniIspit\PrakticniIspit\FarmaKrava\obj\Debug\FarmaKrava.exe
+D:\Github\Practice\PrakticniIspit\PrakticniIspit\FarmaKrava\obj\Debug\FarmaKrava.pdb
+D:\Github\Practice\PrakticniIspit\PrakticniIspit\FarmaKrava\obj\Debug\FarmaKrava.Izmjena.resources

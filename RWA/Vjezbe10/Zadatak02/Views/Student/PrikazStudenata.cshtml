@@ -1,0 +1,49 @@
+﻿@model IEnumerable<Zadatak02.Models.StudentModel>
+
+@{
+    ViewBag.Title = "PrikazStudenata";
+}
+
+<h2>PrikazStudenata</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ime)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.prezime)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.status)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (Zadatak02.Models.StudentModel item in ViewBag.studenti) {
+    <tr>
+        <td>
+            @item.ime
+        </td>
+        <td>
+            @item.prezime
+        </td>
+        <td>
+            @item.email
+        </td>
+        <td>
+            @item.status
+        </td>
+        <td>
+            @Html.ActionLink("Uredi", actionName: "Uredi", controllerName: "Student", routeValues: new { StudentID = item.StudentID }, htmlAttributes: null)
+        </td>
+    </tr>
+}
+
+</table>

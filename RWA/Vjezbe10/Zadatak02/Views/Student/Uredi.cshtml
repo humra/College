@@ -1,0 +1,45 @@
+﻿
+@{
+    ViewBag.Title = "Uredi";
+}
+
+<h2>Uredi</h2>
+
+<form method="post">
+    <table>
+        <tr>
+            <td>Ime: </td>
+            <td>@Html.TextBox("ime", ((Zadatak02.Models.StudentModel)ViewBag.student).ime)</td>
+        </tr>
+        <tr>
+            <td>Prezime: </td>
+            <td>@Html.TextBox("prezime", ((Zadatak02.Models.StudentModel)ViewBag.student).prezime)</td>
+        </tr>
+        <tr>
+            <td>Email: </td>
+            <td>@Html.TextBox("email", ((Zadatak02.Models.StudentModel)ViewBag.student).email)</td>
+        </tr>
+        <tr>
+            <td>Status: </td>
+            <td>@Html.DropDownList(
+               name: "status",
+               selectList: new List<SelectListItem>()
+               {
+                   new SelectListItem() { Text = "Redovni", Value = "Redovni" },
+                   new SelectListItem() { Text = "Vanredni", Value = "Vanredni" }
+               }
+               )</td>
+        </tr>
+        <tr>
+            <td>
+                @Html.TextBox("studentID", ((Zadatak02.Models.StudentModel)ViewBag.student).StudentID, new { @ReadOnly = true, @hidden = true})
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="Update"/></td>
+        </tr>
+    </table>
+</form>
+
+@Html.ActionLink("Prikazi sve studente", "PrikaziStudente")

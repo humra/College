@@ -399,6 +399,7 @@
     </Compile>
     <Compile Include="Guild.cs" />
     <Compile Include="GuildManagementContext.cs" />
+    <Compile Include="GuildManagementInitializer.cs" />
     <Compile Include="Member.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

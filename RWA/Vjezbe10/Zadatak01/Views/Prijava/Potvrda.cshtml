@@ -1,0 +1,51 @@
+﻿@model Zadatak01.Models.StudentModel
+
+@{
+    ViewBag.Title = "Potvrda";
+}
+
+<h2>Potvrda</h2>
+
+<div>
+    <h4>StudentModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ime)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.prezime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.prezime)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.dolazak)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.dolazak)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.laptop)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.laptop)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index") |
+    @Html.ActionLink("Natrag na prijavu", "Prijava");
+</p>

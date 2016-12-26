@@ -1,0 +1,40 @@
+﻿
+@{
+    ViewBag.Title = "Unos";
+}
+
+<h2>Unos</h2>
+<form method="post">
+    <table>
+        <tr>
+            <td>Ime: </td>
+            <td>@Html.TextBox("ime")</td>
+    </tr>
+    <tr>
+        <td>Prezime: </td>
+        <td>@Html.TextBox("prezime")</td>
+    </tr>
+    <tr>
+        <td>Email: </td>
+        <td>@Html.TextBox("email")</td>
+    </tr>
+    <tr>
+        <td>Status: </td>
+        <td>@Html.DropDownList(
+           name: "status",
+           optionLabel: "--- ODABERI ---",
+           selectList: new List<SelectListItem>()
+           {
+               new SelectListItem { Text = "REDOVNI", Value = "redovni" },
+               new SelectListItem { Text = "VANREDNI", Value = "vanredni" }
+           }
+           )</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><input type="submit" value="Unesi"/></td>
+    </tr>
+</table>
+</form>
+
+@Html.ActionLink("Prikazi sve studente", "PrikaziStudente")
