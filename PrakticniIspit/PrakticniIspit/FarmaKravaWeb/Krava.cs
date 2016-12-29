@@ -26,6 +26,7 @@ namespace FarmaKravaWeb
         public System.DateTime DatumRodjenja { get; set; }
         public string VeterinarskiBroj { get; set; }
         public int BrojTeladi { get; set; }
+        public string Slika { get; set; }
     
         public virtual Pasmina Pasmina1 { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

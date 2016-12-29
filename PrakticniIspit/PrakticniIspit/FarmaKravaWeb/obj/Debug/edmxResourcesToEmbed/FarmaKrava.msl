@@ -4,6 +4,7 @@
     <EntitySetMapping Name="Kravas">
       <EntityTypeMapping TypeName="FarmaKravaModel.Krava">
         <MappingFragment StoreEntitySet="Krava">
+          <ScalarProperty Name="Slika" ColumnName="Slika" />
           <ScalarProperty Name="ID" ColumnName="ID" />
           <ScalarProperty Name="Ime" ColumnName="Ime" />
           <ScalarProperty Name="Pasmina" ColumnName="Pasmina" />

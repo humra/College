@@ -10,6 +10,7 @@
     <Property Name="DatumRodjenja" Type="date" Nullable="false" />
     <Property Name="VeterinarskiBroj" Type="nvarchar" MaxLength="20" Nullable="false" />
     <Property Name="BrojTeladi" Type="int" Nullable="false" />
+    <Property Name="Slika" Type="nvarchar" MaxLength="500" />
   </EntityType>
   <EntityType Name="Pasmina">
     <Key>

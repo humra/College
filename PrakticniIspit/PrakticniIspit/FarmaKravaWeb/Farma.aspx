@@ -15,6 +15,10 @@
         <br />
         <asp:GridView ID="gvKrave" runat="server" Height="172px" Width="452px" AutoGenerateColumns="False">
             <Columns>
+                <asp:ImageField DataImageUrlField="Slika" >
+                    <ControlStyle Height="80px" Width="80px" />
+                    <ItemStyle Height="40px" Width="40px" />
+                </asp:ImageField>
                 <asp:BoundField DataField="ID" HeaderText="ID" />
                 <asp:BoundField DataField="Ime" HeaderText="Ime" />
                 <asp:BoundField DataField="DatumRodjenja" HeaderText="Datum rodjenja" />
@@ -30,6 +34,7 @@
                 
             </Columns>
         </asp:GridView>
+        
         <br />
         <br />
         <asp:GridView ID="gvDetalji" runat="server" AutoGenerateColumns="False" Visible="False">
@@ -38,6 +43,7 @@
                 <asp:BoundField DataField="KolicinaMlijeka" HeaderText="Kolicina" />
             </Columns>
         </asp:GridView>
+        <br />
         <br />
     
     </div>

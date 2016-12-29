@@ -12,6 +12,7 @@
     <Property Name="BrojTeladi" Type="Int32" Nullable="false" />
     <NavigationProperty Name="Pasmina1" Relationship="Self.FK__Krava__Pasmina__173876EA" FromRole="Krava" ToRole="Pasmina" />
     <NavigationProperty Name="ProizvodnaMlijekas" Relationship="Self.FK__Proizvodn__Krava__1B0907CE" FromRole="Krava" ToRole="ProizvodnaMlijeka" />
+    <Property Name="Slika" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
   </EntityType>
   <EntityType Name="Pasmina">
     <Key>
