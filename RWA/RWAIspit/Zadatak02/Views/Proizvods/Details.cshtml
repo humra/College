@@ -1,0 +1,74 @@
+﻿@model Zadatak02.Proizvod
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Details</title>
+</head>
+<body>
+    <div>
+        <h4>Proizvod</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Naziv)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Naziv)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.BrojProizvoda)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.BrojProizvoda)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Boja)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Boja)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.MinimalnaKolicinaNaSkladistu)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.MinimalnaKolicinaNaSkladistu)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.CijenaBezPDV)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.CijenaBezPDV)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Potkategorija.Naziv)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Potkategorija.Naziv)
+            </dd>
+    
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.IDProizvod }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</body>
+</html>
