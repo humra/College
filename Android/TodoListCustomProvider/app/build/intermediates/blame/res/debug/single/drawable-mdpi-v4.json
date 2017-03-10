@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "D:\\Github\\AndroidPractice\\TodoListCustomProvider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\stavka_liste.xml",
+        "source": "D:\\Github\\AndroidPractice\\TodoListCustomProvider\\app\\src\\main\\res\\drawable-mdpi\\stavka_liste.xml"
+    },
+    {
+        "merged": "D:\\Github\\AndroidPractice\\TodoListCustomProvider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\prioritet1.png",
+        "source": "D:\\Github\\AndroidPractice\\TodoListCustomProvider\\app\\src\\main\\res\\drawable-mdpi\\prioritet1.png"
+    },
+    {
+        "merged": "D:\\Github\\AndroidPractice\\TodoListCustomProvider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\potvrdi.png",
+        "source": "D:\\Github\\AndroidPractice\\TodoListCustomProvider\\app\\src\\main\\res\\drawable-mdpi\\potvrdi.png"
+    },
+    {
+        "merged": "D:\\Github\\AndroidPractice\\TodoListCustomProvider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\prioritet2.png",
+        "source": "D:\\Github\\AndroidPractice\\TodoListCustomProvider\\app\\src\\main\\res\\drawable-mdpi\\prioritet2.png"
+    },
+    {
+        "merged": "D:\\Github\\AndroidPractice\\TodoListCustomProvider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\zavrsen.png",
+        "source": "D:\\Github\\AndroidPractice\\TodoListCustomProvider\\app\\src\\main\\res\\drawable-mdpi\\zavrsen.png"
+    },
+    {
+        "merged": "D:\\Github\\AndroidPractice\\TodoListCustomProvider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\dodaj.png",
+        "source": "D:\\Github\\AndroidPractice\\TodoListCustomProvider\\app\\src\\main\\res\\drawable-mdpi\\dodaj.png"
+    },
+    {
+        "merged": "D:\\Github\\AndroidPractice\\TodoListCustomProvider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\promijeni.png",
+        "source": "D:\\Github\\AndroidPractice\\TodoListCustomProvider\\app\\src\\main\\res\\drawable-mdpi\\promijeni.png"
+    },
+    {
+        "merged": "D:\\Github\\AndroidPractice\\TodoListCustomProvider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\odbaci.png",
+        "source": "D:\\Github\\AndroidPractice\\TodoListCustomProvider\\app\\src\\main\\res\\drawable-mdpi\\odbaci.png"
+    },
+    {
+        "merged": "D:\\Github\\AndroidPractice\\TodoListCustomProvider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "D:\\Github\\AndroidPractice\\TodoListCustomProvider\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Github\\AndroidPractice\\TodoListCustomProvider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\nezavrsen.png",
+        "source": "D:\\Github\\AndroidPractice\\TodoListCustomProvider\\app\\src\\main\\res\\drawable-mdpi\\nezavrsen.png"
+    },
+    {
+        "merged": "D:\\Github\\AndroidPractice\\TodoListCustomProvider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pretrazi.png",
+        "source": "D:\\Github\\AndroidPractice\\TodoListCustomProvider\\app\\src\\main\\res\\drawable-mdpi\\pretrazi.png"
+    },
+    {
+        "merged": "D:\\Github\\AndroidPractice\\TodoListCustomProvider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\obrisi.png",
+        "source": "D:\\Github\\AndroidPractice\\TodoListCustomProvider\\app\\src\\main\\res\\drawable-mdpi\\obrisi.png"
+    },
+    {
+        "merged": "D:\\Github\\AndroidPractice\\TodoListCustomProvider\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\prioritet3.png",
+        "source": "D:\\Github\\AndroidPractice\\TodoListCustomProvider\\app\\src\\main\\res\\drawable-mdpi\\prioritet3.png"
+    }
+]

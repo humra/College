@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BMIKalkulator</string>
+    <string name="label_unos_tezine">Unesite tezinu</string>
+    <string name="label_unos_visine">Unesite visinu</string>
+    <string name="button_izracun">Izracunaj BMI</string>
+    <string name="label_ispis_BMI">Vas BMI</string>
+    <string name="text_pothranjeno">Pothranjenost</string>
+    <string name="text_normalno">Normalna tezina</string>
+    <string name="text_prekomjerno">Prekomjerna tezina</string>
+</resources>

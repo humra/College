@@ -1,0 +1,56 @@
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" 
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <EditText 
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+        	android:id="@+id/etTekst"
+        	android:hint="@string/hint_unesi"
+        	/>
+        <ImageButton
+            android:layout_width="@dimen/akcija_slika"
+            android:layout_height="@dimen/akcija_slika"
+            android:scaleType="fitXY"
+            android:id="@+id/ibDodaj"
+            android:src="@drawable/dodaj"
+            android:background="@color/pozadina"
+            android:layout_marginLeft="3dp"
+        	/>
+         <ImageButton
+            android:layout_width="@dimen/akcija_slika"
+            android:layout_height="@dimen/akcija_slika"
+            android:scaleType="fitXY"
+            android:id="@+id/ibPromijeni"
+            android:src="@drawable/promijeni"
+            android:background="@color/pozadina"
+            android:layout_marginLeft="30dp"	/>
+        <ImageButton
+            android:layout_width="@dimen/akcija_slika"
+            android:layout_height="@dimen/akcija_slika"
+            android:scaleType="fitXY"
+            android:id="@+id/ibObrisi"
+            android:src="@drawable/obrisi"
+            android:background="@color/pozadina"
+            android:layout_marginLeft="3dp"	/>
+    </LinearLayout>
+    
+    <ListView 
+        	android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/lvZadaci"
+            android:choiceMode="singleChoice"
+            android:layout_marginTop="10dp"
+        ></ListView>
+
+</LinearLayout>

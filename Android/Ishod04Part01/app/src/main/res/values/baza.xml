@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="tablica_djelatnik_create">
+        CREATE TABLE Djelatnik
+        (
+            ID INTEGER PRIMARY KEY AUTOINCREMENT,
+            Ime text,
+            Prezime text,
+            DatumRodjenja text,
+            IznosPlace float
+        )
+    </string>
+    
+</resources>

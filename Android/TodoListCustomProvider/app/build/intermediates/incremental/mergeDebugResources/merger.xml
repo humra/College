@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main$Generated" generated="true"><source path="D:\Github\AndroidPractice\TodoListCustomProvider\app\src\main\res"/><source path="D:\Github\AndroidPractice\TodoListCustomProvider\app\build\generated\res\rs\debug"/><source path="D:\Github\AndroidPractice\TodoListCustomProvider\app\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug$Generated" generated="true"><source path="D:\Github\AndroidPractice\TodoListCustomProvider\app\src\debug\res"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="D:\Github\AndroidPractice\TodoListCustomProvider\app\src\main\res"><file name="ic_launcher" path="D:\Github\AndroidPractice\TodoListCustomProvider\app\src\main\res\drawable-hdpi\ic_launcher.png" qualifiers="hdpi-v4" type="drawable"/><file name="dodaj" path="D:\Github\AndroidPractice\TodoListCustomProvider\app\src\main\res\drawable-mdpi\dodaj.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_launcher" path="D:\Github\AndroidPractice\TodoListCustomProvider\app\src\main\res\drawable-mdpi\ic_launcher.png" qualifiers="mdpi-v4" type="drawable"/><file name="nezavrsen" path="D:\Github\AndroidPractice\TodoListCustomProvider\app\src\main\res\drawable-mdpi\nezavrsen.png" qualifiers="mdpi-v4" type="drawable"/><file name="obrisi" path="D:\Github\AndroidPractice\TodoListCustomProvider\app\src\main\res\drawable-mdpi\obrisi.png" qualifiers="mdpi-v4" type="drawable"/><file name="odbaci" path="D:\Github\AndroidPractice\TodoListCustomProvider\app\src\main\res\drawable-mdpi\odbaci.png" qualifiers="mdpi-v4" type="drawable"/><file name="potvrdi" path="D:\Github\AndroidPractice\TodoListCustomProvider\app\src\main\res\drawable-mdpi\potvrdi.png" qualifiers="mdpi-v4" type="drawable"/><file name="pretrazi" path="D:\Github\AndroidPractice\TodoListCustomProvider\app\src\main\res\drawable-mdpi\pretrazi.png" qualifiers="mdpi-v4" type="drawable"/><file name="prioritet1" path="D:\Github\AndroidPractice\TodoListCustomProvider\app\src\main\res\drawable-mdpi\prioritet1.png" qualifiers="mdpi-v4" type="drawable"/><file name="prioritet2" path="D:\Github\AndroidPractice\TodoListCustomProvider\app\src\main\res\drawable-mdpi\prioritet2.png" qualifiers="mdpi-v4" type="drawable"/><file name="prioritet3" path="D:\Github\AndroidPractice\TodoListCustomProvider\app\src\main\res\drawable-mdpi\prioritet3.png" qualifiers="mdpi-v4" type="drawable"/><file name="promijeni" path="D:\Github\AndroidPractice\TodoListCustomProvider\app\src\main\res\drawable-mdpi\promijeni.png" qualifiers="mdpi-v4" type="drawable"/><file name="stavka_liste" path="D:\Github\AndroidPractice\TodoListCustomProvider\app\src\main\res\drawable-mdpi\stavka_liste.xml" qualifiers="mdpi-v4" type="drawable"/><file name="zavrsen" path="D:\Github\AndroidPractice\TodoListCustomProvider\app\src\main\res\drawable-mdpi\zavrsen.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_launcher" path="D:\Github\AndroidPractice\TodoListCustomProvider\app\src\main\res\drawable-xhdpi\ic_launcher.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_launcher" path="D:\Github\AndroidPractice\TodoListCustomProvider\app\src\main\res\drawable-xxhdpi\ic_launcher.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="kategorija_pregled" path="D:\Github\AndroidPractice\TodoListCustomProvider\app\src\main\res\layout\kategorija_pregled.xml" qualifiers="" type="layout"/><file name="kategorija_stavka_liste" path="D:\Github\AndroidPractice\TodoListCustomProvider\app\src\main\res\layout\kategorija_stavka_liste.xml" qualifiers="" type="layout"/><file name="kontakt_odabir" path="D:\Github\AndroidPractice\TodoListCustomProvider\app\src\main\res\layout\kontakt_odabir.xml" qualifiers="" type="layout"/><file name="main" path="D:\Github\AndroidPractice\TodoListCustomProvider\app\src\main\res\layout\main.xml" qualifiers="" type="layout"/><file name="zadatak_pregled" path="D:\Github\AndroidPractice\TodoListCustomProvider\app\src\main\res\layout\zadatak_pregled.xml" qualifiers="" type="layout"/><file name="zadatak_stavka_liste" path="D:\Github\AndroidPractice\TodoListCustomProvider\app\src\main\res\layout\zadatak_stavka_liste.xml" qualifiers="" type="layout"/><file name="zadatak_unos_promjena" path="D:\Github\AndroidPractice\TodoListCustomProvider\app\src\main\res\layout\zadatak_unos_promjena.xml" qualifiers="" type="layout"/><file path="D:\Github\AndroidPractice\TodoListCustomProvider\app\src\main\res\values\baza.xml" qualifiers=""><string name="kreiranje_prioritet">
+        CREATE TABLE Prioritet
+        (
+        	ID integer primary key,
+        	Naziv text not null
+        )
+    </string><string name="kreiranje_kategorija">
+        CREATE TABLE Kategorija
+        (
+        	ID integer primary key autoincrement,
+        	Naziv text not null,
+        	BrisanjeMoguce integer not null
+        )
+    </string><string name="kreiranje_zadatak">
+        CREATE TABLE Zadatak
+        (
+        	ID integer primary key autoincrement,
+        	Tekst text not null,
+        	Zavrsen integer not null,
+        	Datum text,
+        	KategorijaID integer,
+        	PrioritetID integer,
+        	PodsjetnikID integer,
+        	KontaktID integer,
+        	FOREIGN KEY(KategorijaID) REFERENCES Kategorija(ID) ON DELETE CASCADE,
+        	FOREIGN KEY(PrioritetID) REFERENCES Prioritet(ID),
+        	FOREIGN KEY(PodsjetnikID) REFERENCES Podsjetnik(ID)
+        )
+    </string><string name="kreiranje_podsjetnik">
+        CREATE TABLE Podsjetnik
+        (
+        	ID integer primary key,
+        	Naziv text not null
+        )
+    </string></file><file path="D:\Github\AndroidPractice\TodoListCustomProvider\app\src\main\res\values\colors.xml" qualifiers=""><color name="pozadina">@android:color/transparent</color><color name="oznaka_na_listi">#C2F1FF</color></file><file path="D:\Github\AndroidPractice\TodoListCustomProvider\app\src\main\res\values\dimensions.xml" qualifiers=""><dimen name="prva_kolona">100dp</dimen><dimen name="akcija_slika">30dp</dimen><dimen name="potvrdi_odbaci_slika">50dp</dimen></file><file path="D:\Github\AndroidPractice\TodoListCustomProvider\app\src\main\res\values\strings.xml" qualifiers=""><string name="button_dodaj">Dodaj</string><string name="app_name">Moje obaveze</string><string name="hint_unesi">Unesite tekst</string></file><file path="D:\Github\AndroidPractice\TodoListCustomProvider\app\src\main\res\values\styles.xml" qualifiers=""><style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style><style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style></file><file path="D:\Github\AndroidPractice\TodoListCustomProvider\app\src\main\res\values-v11\styles.xml" qualifiers="v11"><style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <!-- API 11 theme customizations can go here. -->
+    </style></file><file path="D:\Github\AndroidPractice\TodoListCustomProvider\app\src\main\res\values-v14\styles.xml" qualifiers="v14"><style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- API 14 theme customizations can go here. -->
+    </style></file></source><source path="D:\Github\AndroidPractice\TodoListCustomProvider\app\build\generated\res\rs\debug"/><source path="D:\Github\AndroidPractice\TodoListCustomProvider\app\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug" generated-set="debug$Generated"><source path="D:\Github\AndroidPractice\TodoListCustomProvider\app\src\debug\res"/></dataSet><mergedItems/></merger>

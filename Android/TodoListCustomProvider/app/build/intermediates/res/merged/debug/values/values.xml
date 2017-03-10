@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="oznaka_na_listi">#C2F1FF</color>
+    <color name="pozadina">@android:color/transparent</color>
+    <dimen name="akcija_slika">30dp</dimen>
+    <dimen name="potvrdi_odbaci_slika">50dp</dimen>
+    <dimen name="prva_kolona">100dp</dimen>
+    <string name="app_name">Moje obaveze</string>
+    <string name="button_dodaj">Dodaj</string>
+    <string name="hint_unesi">Unesite tekst</string>
+    <string name="kreiranje_kategorija">
+        CREATE TABLE Kategorija
+        (
+        	ID integer primary key autoincrement,
+        	Naziv text not null,
+        	BrisanjeMoguce integer not null
+        )
+    </string>
+    <string name="kreiranje_podsjetnik">
+        CREATE TABLE Podsjetnik
+        (
+        	ID integer primary key,
+        	Naziv text not null
+        )
+    </string>
+    <string name="kreiranje_prioritet">
+        CREATE TABLE Prioritet
+        (
+        	ID integer primary key,
+        	Naziv text not null
+        )
+    </string>
+    <string name="kreiranje_zadatak">
+        CREATE TABLE Zadatak
+        (
+        	ID integer primary key autoincrement,
+        	Tekst text not null,
+        	Zavrsen integer not null,
+        	Datum text,
+        	KategorijaID integer,
+        	PrioritetID integer,
+        	PodsjetnikID integer,
+        	KontaktID integer,
+        	FOREIGN KEY(KategorijaID) REFERENCES Kategorija(ID) ON DELETE CASCADE,
+        	FOREIGN KEY(PrioritetID) REFERENCES Prioritet(ID),
+        	FOREIGN KEY(PodsjetnikID) REFERENCES Podsjetnik(ID)
+        )
+    </string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

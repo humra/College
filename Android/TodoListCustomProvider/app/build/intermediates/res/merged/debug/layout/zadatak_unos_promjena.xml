@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="@dimen/prva_kolona"
+            android:layout_height="wrap_content"
+            android:text="Tekst" />
+
+        <EditText
+            android:id="@+id/etTekst"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="@dimen/prva_kolona"
+            android:layout_height="wrap_content"
+            android:text="Status" />
+
+        <ImageView
+            android:id="@+id/ivZavrsen"
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:gravity="right"
+            android:text="Prioritet" />
+
+        <ImageView
+            android:id="@+id/ivPrioritet"
+            android:layout_width="20dp"
+            android:layout_height="20dp" 
+            android:layout_marginLeft="50dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="@dimen/prva_kolona"
+            android:layout_height="wrap_content"
+            android:text="Datum" />
+
+        <EditText
+            android:id="@+id/etDatum"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="@dimen/prva_kolona"
+            android:layout_height="wrap_content"
+            android:text="Kategorija" />
+
+        <Spinner
+            android:id="@+id/sKategorije"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="@dimen/prva_kolona"
+            android:layout_height="wrap_content"
+            
+            android:text="Podsjetnik" />
+
+        <Spinner
+            android:id="@+id/sPodsjetnici"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="@dimen/prva_kolona"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Osoba" />
+
+        <TextView
+            android:id="@+id/tvKontakt"
+            android:layout_marginLeft="12dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+        
+        <ImageButton
+            android:id="@+id/btnPretrazi"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/pretrazi"
+            android:background="@color/pozadina"
+            android:layout_gravity="center_vertical"
+            android:scaleType="fitXY"/>
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/btnPotvrdi"
+        android:layout_width="@dimen/potvrdi_odbaci_slika"
+        android:layout_height="@dimen/potvrdi_odbaci_slika"
+        android:layout_gravity="right"
+        android:scaleType="fitXY"
+        android:src="@drawable/potvrdi"
+        android:background="@color/pozadina"
+        android:layout_marginTop="30dp"
+        android:text="Potvrdi" />
+
+</LinearLayout>

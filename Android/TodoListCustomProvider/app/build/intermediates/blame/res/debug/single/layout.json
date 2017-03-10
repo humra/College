@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "D:\\Github\\AndroidPractice\\TodoListCustomProvider\\app\\build\\intermediates\\res\\merged\\debug\\layout\\zadatak_pregled.xml",
+        "source": "D:\\Github\\AndroidPractice\\TodoListCustomProvider\\app\\src\\main\\res\\layout\\zadatak_pregled.xml"
+    },
+    {
+        "merged": "D:\\Github\\AndroidPractice\\TodoListCustomProvider\\app\\build\\intermediates\\res\\merged\\debug\\layout\\zadatak_unos_promjena.xml",
+        "source": "D:\\Github\\AndroidPractice\\TodoListCustomProvider\\app\\src\\main\\res\\layout\\zadatak_unos_promjena.xml"
+    },
+    {
+        "merged": "D:\\Github\\AndroidPractice\\TodoListCustomProvider\\app\\build\\intermediates\\res\\merged\\debug\\layout\\zadatak_stavka_liste.xml",
+        "source": "D:\\Github\\AndroidPractice\\TodoListCustomProvider\\app\\src\\main\\res\\layout\\zadatak_stavka_liste.xml"
+    },
+    {
+        "merged": "D:\\Github\\AndroidPractice\\TodoListCustomProvider\\app\\build\\intermediates\\res\\merged\\debug\\layout\\kategorija_stavka_liste.xml",
+        "source": "D:\\Github\\AndroidPractice\\TodoListCustomProvider\\app\\src\\main\\res\\layout\\kategorija_stavka_liste.xml"
+    },
+    {
+        "merged": "D:\\Github\\AndroidPractice\\TodoListCustomProvider\\app\\build\\intermediates\\res\\merged\\debug\\layout\\kontakt_odabir.xml",
+        "source": "D:\\Github\\AndroidPractice\\TodoListCustomProvider\\app\\src\\main\\res\\layout\\kontakt_odabir.xml"
+    },
+    {
+        "merged": "D:\\Github\\AndroidPractice\\TodoListCustomProvider\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "D:\\Github\\AndroidPractice\\TodoListCustomProvider\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "D:\\Github\\AndroidPractice\\TodoListCustomProvider\\app\\build\\intermediates\\res\\merged\\debug\\layout\\kategorija_pregled.xml",
+        "source": "D:\\Github\\AndroidPractice\\TodoListCustomProvider\\app\\src\\main\\res\\layout\\kategorija_pregled.xml"
+    }
+]

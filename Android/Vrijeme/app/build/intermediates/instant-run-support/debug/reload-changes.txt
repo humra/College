@@ -1,0 +1,3 @@
+CHANGED,D:\Github\AndroidPractice\Vrijeme\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class
+CHANGED,D:\Github\AndroidPractice\Vrijeme\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\vjezba\vrijeme\UpraviteljIPAdresa$override.class
+CHANGED,D:\Github\AndroidPractice\Vrijeme\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\vjezba\vrijeme\MainActivity$override.class

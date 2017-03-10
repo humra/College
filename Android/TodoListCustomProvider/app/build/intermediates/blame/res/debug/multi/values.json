@@ -1,0 +1,285 @@
+[
+    {
+        "outputFile": "D:\\Github\\AndroidPractice\\TodoListCustomProvider\\app\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 49,
+                    "endOffset": 100
+                },
+                "from": {
+                    "file": "D:\\Github\\AndroidPractice\\TodoListCustomProvider\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endColumn": 49,
+                        "endOffset": 102
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 61,
+                    "endOffset": 162
+                },
+                "from": {
+                    "file": "D:\\Github\\AndroidPractice\\TodoListCustomProvider\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 108,
+                        "endColumn": 61,
+                        "endOffset": 165
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 167,
+                    "endColumn": 43,
+                    "endOffset": 206
+                },
+                "from": {
+                    "file": "D:\\Github\\AndroidPractice\\TodoListCustomProvider\\app\\src\\main\\res\\values\\dimensions.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 3,
+                        "startOffset": 101,
+                        "endColumn": 42,
+                        "endOffset": 140
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 211,
+                    "endColumn": 51,
+                    "endOffset": 258
+                },
+                "from": {
+                    "file": "D:\\Github\\AndroidPractice\\TodoListCustomProvider\\app\\src\\main\\res\\values\\dimensions.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 3,
+                        "startOffset": 145,
+                        "endColumn": 50,
+                        "endOffset": 192
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 263,
+                    "endColumn": 43,
+                    "endOffset": 302
+                },
+                "from": {
+                    "file": "D:\\Github\\AndroidPractice\\TodoListCustomProvider\\app\\src\\main\\res\\values\\dimensions.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 3,
+                        "startOffset": 56,
+                        "endColumn": 42,
+                        "endOffset": 95
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 307,
+                    "endColumn": 49,
+                    "endOffset": 352
+                },
+                "from": {
+                    "file": "D:\\Github\\AndroidPractice\\TodoListCustomProvider\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 58,
+                        "endColumn": 49,
+                        "endOffset": 103
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 357,
+                    "endColumn": 46,
+                    "endOffset": 399
+                },
+                "from": {
+                    "file": "D:\\Github\\AndroidPractice\\TodoListCustomProvider\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 1,
+                        "startOffset": 160,
+                        "endColumn": 43,
+                        "endOffset": 202
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 404,
+                    "endColumn": 52,
+                    "endOffset": 452
+                },
+                "from": {
+                    "file": "D:\\Github\\AndroidPractice\\TodoListCustomProvider\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 109,
+                        "endColumn": 52,
+                        "endOffset": 157
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 457,
+                    "endLine": 17,
+                    "endColumn": 13,
+                    "endOffset": 677
+                },
+                "from": {
+                    "file": "D:\\Github\\AndroidPractice\\TodoListCustomProvider\\app\\src\\main\\res\\values\\baza.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 407,
+                        "endLine": 23,
+                        "endColumn": 13,
+                        "endOffset": 634
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 682,
+                    "endLine": 24,
+                    "endColumn": 13,
+                    "endOffset": 846
+                },
+                "from": {
+                    "file": "D:\\Github\\AndroidPractice\\TodoListCustomProvider\\app\\src\\main\\res\\values\\baza.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endLine": 8,
+                        "endColumn": 13,
+                        "endOffset": 227
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 851,
+                    "endLine": 31,
+                    "endColumn": 13,
+                    "endOffset": 1013
+                },
+                "from": {
+                    "file": "D:\\Github\\AndroidPractice\\TodoListCustomProvider\\app\\src\\main\\res\\values\\baza.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 233,
+                        "endLine": 15,
+                        "endColumn": 13,
+                        "endOffset": 401
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 1018,
+                    "endLine": 47,
+                    "endColumn": 13,
+                    "endOffset": 1568
+                },
+                "from": {
+                    "file": "D:\\Github\\AndroidPractice\\TodoListCustomProvider\\app\\src\\main\\res\\values\\baza.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 640,
+                        "endLine": 39,
+                        "endColumn": 13,
+                        "endOffset": 1205
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 1573,
+                    "endLine": 54,
+                    "endColumn": 12,
+                    "endOffset": 1859
+                },
+                "from": {
+                    "file": "D:\\Github\\AndroidPractice\\TodoListCustomProvider\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 191,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 481
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 55,
+                    "startColumn": 4,
+                    "startOffset": 1864,
+                    "endLine": 57,
+                    "endColumn": 12,
+                    "endOffset": 2019
+                },
+                "from": {
+                    "file": "D:\\Github\\AndroidPractice\\TodoListCustomProvider\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 522,
+                        "endLine": 17,
+                        "endColumn": 12,
+                        "endOffset": 679
+                    }
+                }
+            }
+        ]
+    }
+]

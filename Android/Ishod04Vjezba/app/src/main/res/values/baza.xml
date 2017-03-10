@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="MJESTO_CREATE">
+        CREATE TABLE Mjesto
+        (
+            ID int PRIMARY KEY AUTOINCREMENT,
+            Naziv text NOT NULL,
+            BrojStanovnika int,
+            ZupanijaID int
+        )
+    </string>
+</resources>

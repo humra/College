@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Matija\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="D:\Github\AndroidPractice\TodoListCustomProvider\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-v4-18.0.0_8f29da7592e89332ce6f7d12cdcf9ee97ba486cd\classes.dex" />
+    </item>
+    <item
+        jar="D:\Github\AndroidPractice\TodoListCustomProvider\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="156d3ca002eda885fedd31b2c2b44b5810fb67aa">
+        <dex dex="D:\Github\AndroidPractice\TodoListCustomProvider\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_20ae618148c3e3d80423e5d65c34bd10a48b5abd\classes.dex" />
+    </item>
+    <item
+        jar="D:\Github\AndroidPractice\TodoListCustomProvider\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="8d81a7791175aa26636373ced20cb05e44b6ff51">
+        <dex dex="D:\Github\AndroidPractice\TodoListCustomProvider\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_57b9acaa5a1eda4e226bb7426166bb7cceea1f90\classes.dex" />
+    </item>
+
+</items>

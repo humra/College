@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <dimen name="prva_kolona">100dp</dimen> 
+   <dimen name="akcija_slika">30dp</dimen>
+   <dimen name="potvrdi_odbaci_slika">50dp</dimen>
+</resources>
