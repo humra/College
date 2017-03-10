@@ -77,6 +77,5 @@ D:\Github\Practice\RWA\RWAIspit\Zadatak02\bin\Microsoft.Owin.Security.OAuth.xml
 D:\Github\Practice\RWA\RWAIspit\Zadatak02\bin\Microsoft.Owin.Security.Google.xml
 D:\Github\Practice\RWA\RWAIspit\Zadatak02\bin\Microsoft.Owin.Security.Twitter.xml
 D:\Github\Practice\RWA\RWAIspit\Zadatak02\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-D:\Github\Practice\RWA\RWAIspit\Zadatak02\obj\Debug\Zadatak02.csprojResolveAssemblyReference.cache
 D:\Github\Practice\RWA\RWAIspit\Zadatak02\obj\Debug\Zadatak02.dll
 D:\Github\Practice\RWA\RWAIspit\Zadatak02\obj\Debug\Zadatak02.pdb

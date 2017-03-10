@@ -17,7 +17,6 @@ namespace Zadatak03.Controllers
         // GET: Kupacs
         public ActionResult Index()
         {
-            var kupacs = db.Kupacs.Include(k => k.Grad);
             return RedirectToAction("Edit");
         }
 
@@ -67,19 +66,6 @@ namespace Zadatak03.Controllers
             Kupac kupac = db.Kupacs.First();
             ViewBag.GradID = new SelectList(db.Grads, "IDGrad", "Naziv", kupac.GradID);
             return View(kupac);
-        }
-
-        [HttpPost]
-        public ActionResult Unesi([Bind(Include = "IDKupac,Ime,Prezime,Email,Telefon,GradID")] Kupac kupac)
-        {
-            if (ModelState.IsValid)
-            {
-                db.Entry(kupac).State = EntityState.Modified;
-                db.SaveChanges();
-                return RedirectToAction("Edit");
-            }
-            ViewBag.GradID = new SelectList(db.Grads, "IDGrad", "Naziv", kupac.GradID);
-            return RedirectToAction("Edit");
         }
 
         // POST: Kupacs/Edit/5

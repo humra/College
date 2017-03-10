@@ -9,7 +9,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{32E4380D-4F00-4ADF-8555-3566468E59D2}</ProjectGuid>
+    <ProjectGuid>{FDB2D44C-59B8-4517-8BC7-528D4E034D36}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -329,6 +329,8 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Proizvods\Create.cshtml" />
+    <Content Include="Views\Proizvods\Delete.cshtml" />
     <Content Include="Views\Proizvods\Details.cshtml" />
     <Content Include="Views\Proizvods\Edit.cshtml" />
     <Content Include="Views\Proizvods\Index.cshtml" />
@@ -364,7 +366,7 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>52022</DevelopmentServerPort>
+          <DevelopmentServerPort>50709</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>http://localhost:52022/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>

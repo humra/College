@@ -15,24 +15,21 @@ namespace Zadatak02.Controllers
         private AdventureWorksOBPEntities db = new AdventureWorksOBPEntities();
 
         // GET: Proizvods
-        public ActionResult Index(int? kategorijaID, int? potkategorijaID)
+        public ActionResult Index(int? idKategorija, int? idPotkategorija)
         {
             ViewBag.KategorijaID = new SelectList(db.Kategorijas, "IDKategorija", "Naziv");
 
-            if(kategorijaID != null)
+            if(idKategorija != null)
             {
-                ViewBag.KategorijaID = new SelectList(db.Kategorijas, "IDKategorija", "Naziv", kategorijaID);
+                ViewBag.PotkategorijaID = new SelectList(db.Potkategorijas, "IDPotkategorija", "Naziv", idKategorija);
 
-                ViewBag.PotkategorijaID = new SelectList(db.Potkategorijas.Where(pk => pk.KategorijaID == kategorijaID), "IDPotkategorija", "Naziv");
+                if(idPotkategorija != null)
+                {
+                    var proizvods = db.Proizvods.Where(p => p.PotkategorijaID == idPotkategorija);
+                    return View(proizvods.ToList());
+                }
             }
-
-            if(potkategorijaID != null)
-            {
-                var proizvods = db.Proizvods.Where(p => p.PotkategorijaID == potkategorijaID);
-                return View(proizvods.ToList());
-            }
-
-            //var proizvods = db.Proizvods.Include(p => p.Potkategorija);
+            
             return View();
         }
 

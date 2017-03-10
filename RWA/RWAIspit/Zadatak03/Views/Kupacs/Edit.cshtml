@@ -59,44 +59,38 @@
 
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
-                <input type="submit" value="Save" class="btn btn-default" id="saveBtn"/>
+                <button id="submit">Submit</button>
             </div>
         </div>
     </div>
 }
 
-<div>
-    @Html.ActionLink("Back to List", "Index")
-</div>
 
 @section Scripts {
     @Scripts.Render("~/bundles/jqueryval")
 
     <script>
-        $(document).ready(function () {
-            $('#saveBtn').click(function () {
-                posaljiKupca();
-            })
-        });
+        $('#submit').click(function () {
+            posalji();
+        })
 
-        function posaljiKupca() {
+        function posalji() {
             var kupac = {
                 IDKupac: $('#IDKupac').val(),
                 Ime: $('#Ime').val(),
                 Prezime: $('#Prezime').val(),
                 Email: $('#Email').val(),
                 Telefon: $('#Telefon').val(),
-                GradID: $('GradID').val(),
+                GradID: $('#GradID').val()
             };
 
             $.ajax({
                 type: "POST",
-                url: @Url.Action("Unesi", "Kupacs"),
+                url: @Url.Action("Edit", "Kupacs"),
                 data: kupac,
-                contentType: "application/json; charset=utf-8",
-                datatype: "json"
+                dataType: "json",
+                contentType: "application/json, charset=utf-8"
             })
-        };
-
+        }
     </script>
 }

@@ -15,8 +15,8 @@ namespace Zadatak02
 
             routes.MapRoute(
                 name: "Default",
-                url: "{controller}/{action}/{kategorijaID}/{potkategorijaID}",
-                defaults: new { controller = "Proizvods", action = "Index", kategorijaID = UrlParameter.Optional, potkategorijaID = UrlParameter.Optional }
+                url: "{controller}/{action}/{idKategorija}/{idPotkategorija}",
+                defaults: new { controller = "Proizvods", action = "Index", idKategorija = UrlParameter.Optional, idPotkategorija = UrlParameter.Optional }
             );
         }
     }

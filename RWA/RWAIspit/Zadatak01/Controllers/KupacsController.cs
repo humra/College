@@ -17,17 +17,14 @@ namespace Zadatak01.Controllers
         // GET: Kupacs
         public ActionResult Index(int? id)
         {
-            ViewBag.IDGrad = new SelectList(db.Grads, "IDGrad", "Naziv");
             var kupacs = db.Kupacs.Include(k => k.Grad);
-
-            if(id != null)
+            ViewBag.GradID = new SelectList(db.Grads, "IDGrad", "Naziv");
+            if (id != null)
             {
-                kupacs = db.Kupacs.Where(k => k.GradID == id);
-                ViewBag.IDGrad = new SelectList(db.Grads, "IDGrad", "Naziv", id);
+                kupacs = kupacs.Where(k => k.GradID == id);
+                ViewBag.GradID = new SelectList(db.Grads, "IDGrad", "Naziv", id);
             }
-
             kupacs = kupacs.Take(6);
-            
             return View(kupacs.ToList());
         }
 
