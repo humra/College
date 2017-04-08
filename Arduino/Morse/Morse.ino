@@ -5,7 +5,7 @@ int dashLen = dotLen * 3;
 int charPauseLen = dotLen;
 int spaceLen = dashLen;
 int wordPauseLen = dotLen * 7;
-int note = 800;
+int note = 50;
 
 String sentence;
 
