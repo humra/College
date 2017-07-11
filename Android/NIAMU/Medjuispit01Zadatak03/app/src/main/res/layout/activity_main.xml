@@ -3,21 +3,24 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:padding="15dp"
     android:layout_height="match_parent"
-    android:layout_margin="10dp"
     tools:context="com.humra.medjuispit01zadatak03.MainActivity">
 
-    <Button android:layout_height="wrap_content"
+    <Button
         android:layout_width="wrap_content"
-        android:id="@+id/btnPokreni"
-        android:text="Do the thing"/>
+        android:layout_height="wrap_content"
+        android:text="Click me"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/myButton"/>
 
     <ImageView
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:src="@drawable/u"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:background="@drawable/blue_mana_3630"
-        android:id="@+id/ivImage"/>
+        android:id="@+id/myImage"/>
 
 </RelativeLayout>
