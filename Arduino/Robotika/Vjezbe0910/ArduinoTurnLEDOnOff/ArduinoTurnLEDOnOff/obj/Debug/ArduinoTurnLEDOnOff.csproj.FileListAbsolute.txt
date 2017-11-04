@@ -1,0 +1,9 @@
+D:\Git\Practice\Arduino\Vjezbe0910\ArduinoTurnLEDOnOff\ArduinoTurnLEDOnOff\bin\Debug\ArduinoTurnLEDOnOff.exe.config
+D:\Git\Practice\Arduino\Vjezbe0910\ArduinoTurnLEDOnOff\ArduinoTurnLEDOnOff\bin\Debug\ArduinoTurnLEDOnOff.exe
+D:\Git\Practice\Arduino\Vjezbe0910\ArduinoTurnLEDOnOff\ArduinoTurnLEDOnOff\bin\Debug\ArduinoTurnLEDOnOff.pdb
+D:\Git\Practice\Arduino\Vjezbe0910\ArduinoTurnLEDOnOff\ArduinoTurnLEDOnOff\obj\Debug\ArduinoTurnLEDOnOff.csprojResolveAssemblyReference.cache
+D:\Git\Practice\Arduino\Vjezbe0910\ArduinoTurnLEDOnOff\ArduinoTurnLEDOnOff\obj\Debug\ArduinoTurnLEDOnOff.Form1.resources
+D:\Git\Practice\Arduino\Vjezbe0910\ArduinoTurnLEDOnOff\ArduinoTurnLEDOnOff\obj\Debug\ArduinoTurnLEDOnOff.Properties.Resources.resources
+D:\Git\Practice\Arduino\Vjezbe0910\ArduinoTurnLEDOnOff\ArduinoTurnLEDOnOff\obj\Debug\ArduinoTurnLEDOnOff.csproj.GenerateResource.Cache
+D:\Git\Practice\Arduino\Vjezbe0910\ArduinoTurnLEDOnOff\ArduinoTurnLEDOnOff\obj\Debug\ArduinoTurnLEDOnOff.exe
+D:\Git\Practice\Arduino\Vjezbe0910\ArduinoTurnLEDOnOff\ArduinoTurnLEDOnOff\obj\Debug\ArduinoTurnLEDOnOff.pdb
