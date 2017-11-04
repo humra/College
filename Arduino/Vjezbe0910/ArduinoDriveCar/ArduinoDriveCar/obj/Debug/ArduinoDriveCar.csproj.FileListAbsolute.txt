@@ -1,9 +1,0 @@
-D:\Git\Practice\Arduino\Vjezbe0910\ArduinoDriveCar\ArduinoDriveCar\bin\Debug\ArduinoDriveCar.exe.config
-D:\Git\Practice\Arduino\Vjezbe0910\ArduinoDriveCar\ArduinoDriveCar\bin\Debug\ArduinoDriveCar.exe
-D:\Git\Practice\Arduino\Vjezbe0910\ArduinoDriveCar\ArduinoDriveCar\bin\Debug\ArduinoDriveCar.pdb
-D:\Git\Practice\Arduino\Vjezbe0910\ArduinoDriveCar\ArduinoDriveCar\obj\Debug\ArduinoDriveCar.csprojResolveAssemblyReference.cache
-D:\Git\Practice\Arduino\Vjezbe0910\ArduinoDriveCar\ArduinoDriveCar\obj\Debug\ArduinoDriveCar.Form1.resources
-D:\Git\Practice\Arduino\Vjezbe0910\ArduinoDriveCar\ArduinoDriveCar\obj\Debug\ArduinoDriveCar.Properties.Resources.resources
-D:\Git\Practice\Arduino\Vjezbe0910\ArduinoDriveCar\ArduinoDriveCar\obj\Debug\ArduinoDriveCar.csproj.GenerateResource.Cache
-D:\Git\Practice\Arduino\Vjezbe0910\ArduinoDriveCar\ArduinoDriveCar\obj\Debug\ArduinoDriveCar.exe
-D:\Git\Practice\Arduino\Vjezbe0910\ArduinoDriveCar\ArduinoDriveCar\obj\Debug\ArduinoDriveCar.pdb
