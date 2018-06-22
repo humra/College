@@ -1,0 +1,1 @@
+D:\Git\Practice\Arduino\Vjezbe0910\ArduinoDriveWithCamera\ArduinoDriveWithCamera\bin\Debug\ArduinoDriveWithCamera.exe.config
