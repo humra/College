@@ -1,0 +1,45 @@
+﻿@model IEnumerable<NIAMU.Models.Champions>
+
+@{
+    ViewBag.Title = "Champions";
+}
+
+<h2>Champions</h2>
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Roles.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Bio)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Url_Image)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Role)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Bio)
+            </td>
+            <td>
+                <img width="300" src="@Url.Content(item.Url_Image)" alt="Image" />
+            </td>
+        </tr>
+    }
+
+</table>
