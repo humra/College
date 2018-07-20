@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Zadatak05.unity
+- path: Assets/Scenes/Zadatak04.unity
   isLoaded: 1
   isActive: 1

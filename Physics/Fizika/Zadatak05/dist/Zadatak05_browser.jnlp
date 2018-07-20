@@ -8,7 +8,7 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="Zadatak05.jar" size="7366" download="eager" />
+    <jar href="Zadatak05.jar" size="5600" download="eager" />
   </resources>
   <applet-desc  width="800" height="600" main-class="zadatak05.Zadatak05"  name="Zadatak05" >
   </applet-desc>

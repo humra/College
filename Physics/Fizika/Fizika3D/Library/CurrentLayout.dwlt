@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -43,7 +43,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 998
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -105,7 +105,7 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 948
-  m_MinSize: {x: 683, y: 492}
+  m_MinSize: {x: 883, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 1
   controlID: 52
@@ -129,7 +129,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 948
-  m_MinSize: {x: 683, y: 492}
+  m_MinSize: {x: 883, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
   controlID: 53
@@ -153,10 +153,10 @@ MonoBehaviour:
     y: 0
     width: 1542
     height: 948
-  m_MinSize: {x: 406, y: 492}
+  m_MinSize: {x: 606, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 54
+  controlID: 13
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -177,10 +177,10 @@ MonoBehaviour:
     y: 0
     width: 1542
     height: 677
-  m_MinSize: {x: 406, y: 221}
-  m_MaxSize: {x: 8006, y: 4021}
+  m_MinSize: {x: 606, y: 221}
+  m_MaxSize: {x: 6054, y: 4021}
   vertical: 0
-  controlID: 55
+  controlID: 69
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -199,8 +199,8 @@ MonoBehaviour:
     y: 0
     width: 404
     height: 677
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -224,16 +224,16 @@ MonoBehaviour:
     y: 0
     width: 1138
     height: 677
-  m_MinSize: {x: 204, y: 221}
-  m_MaxSize: {x: 4004, y: 4021}
-  m_ActualView: {fileID: 15}
+  m_MinSize: {x: 404, y: 121}
+  m_MaxSize: {x: 2052, y: 2069}
+  m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 15}
   - {fileID: 13}
   - {fileID: 16}
   - {fileID: 17}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 3
+  m_LastSelected: 0
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -390,9 +390,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 10ebfeff
-    m_LastClickedID: -70896
-    m_ExpandedIDs: 5a99ffff1cecfffff0fbffff00000000
+    m_SelectedIDs: 8a290000
+    m_LastClickedID: 0
+    m_ExpandedIDs: f0fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -447,9 +447,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.5044899, y: -0.090343475, z: -7.5072565}
+    m_Target: {x: 2.0404482, y: -2.1608653, z: 2.2118366}
     speed: 2
-    m_Value: {x: -0.5044899, y: -0.090343475, z: -7.5072565}
+    m_Value: {x: 2.0404482, y: -2.1608653, z: 2.2118366}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -477,13 +477,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.16954733, y: 0.70055354, z: -0.17724709, w: -0.67012084}
+    m_Target: {x: -0.21619873, y: 0.5220074, z: -0.13875881, w: -0.81333417}
     speed: 2
-    m_Value: {x: -0.16954733, y: 0.70055354, z: -0.17724709, w: -0.67012084}
+    m_Value: {x: -0.21619873, y: 0.5220074, z: -0.13875881, w: -0.81333417}
   m_Size:
-    m_Target: 14.078797
+    m_Target: 14.944228
     speed: 2
-    m_Value: 14.078797
+    m_Value: 14.944228
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -557,10 +557,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 434
+    x: 406
     y: 91
-    width: 924
-    height: 621
+    width: 1134
+    height: 656
   m_PersistentViewDataDictionary: {fileID: 0}
 --- !u!114 &18
 MonoBehaviour:
@@ -599,20 +599,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets
+    - Assets/Standard Assets/Characters/FirstPersonCharacter/Prefabs
   m_ViewMode: 1
   m_StartGridSize: 72
   m_LastFolders:
-  - Assets
+  - Assets/Standard Assets/Characters/FirstPersonCharacter/Prefabs
   m_LastFoldersGridSize: 72
-  m_LastProjectPath: D:\Github\UnityPractice\Fizika\Fizika3D
+  m_LastProjectPath: D:\Github\Practice\Physics\Fizika\Fizika3D
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 2e290000
-    m_LastClickedID: 10542
-    m_ExpandedIDs: 000000002e290000be350000283600002a360000ffffff7f
+    scrollPos: {x: 0, y: 60}
+    m_SelectedIDs: ca2b0000
+    m_LastClickedID: 11210
+    m_ExpandedIDs: 000000008a290000ce2a0000e02a0000202d00002a2d0000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -640,7 +640,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000002e290000
+    m_ExpandedIDs: 000000008a290000e02a0000202d00002a2d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -667,7 +667,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: bc2700001e2400001c240000262400006e24000036250000402f00005a2600006cecffff8035000006360000d2260000864e0000924e0000fa84fdff7e27000088270000742900001af9e8ff962a0000046efeffa22a0000dcb9feff86280000803200000c3200005c280000802800008056ffffb22800000e86fdff00000000563d00005c2900006c2700009e270000a227000074270000aa270000b4270000062a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0

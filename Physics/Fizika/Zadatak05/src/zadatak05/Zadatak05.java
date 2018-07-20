@@ -7,19 +7,14 @@ package zadatak05;
 
 import java.awt.BorderLayout;
 import java.awt.Dimension;
-import java.util.ArrayList;
-import java.util.Random;
 import javafx.application.Platform;
 import javafx.embed.swing.JFXPanel;
-import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.scene.Group;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.layout.StackPane;
+import javafx.scene.input.MouseEvent;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Rectangle;
-import javafx.scene.transform.Rotate;
 import javax.swing.JApplet;
 import javax.swing.JFrame;
 import javax.swing.SwingUtilities;
@@ -82,42 +77,42 @@ public class Zadatak05 extends JApplet {
     
     private void createScene() {
         Group root = new Group();
-        Random rand = new Random();
 
-        Rectangle r1 = new Rectangle();
-        Rectangle r2 = new Rectangle();
+        Rectangle r1 = new Rectangle(10, 100, 150, 150);
+        r1.setFill(Color.RED);
+
+        Rectangle r2 = new Rectangle(400, 100, 150, 150);
+        r2.setFill(Color.BLUE);
         
-        for(int i = 0; i < 2; i++) 
-        {
-           float x = (float)rand.nextInt(400 - 150) + 150;
-           float y = (float)rand.nextInt(400 - 150) + 150; 
-           int width = rand.nextInt((200 - 150) + 1) + 150;
-           int height = rand.nextInt((200 - 150) + 1) + 150;
+        r1.setOnMouseClicked(new EventHandler<MouseEvent>() {
+            @Override
+            public void handle(MouseEvent event) {
+                r1.setX(r1.getX() + 30);
+                CheckForOverlap(r1, r2);
+            }
+            
+        });
+        
+        r2.setOnMouseClicked(new EventHandler<MouseEvent>() {
+            @Override
+            public void handle(MouseEvent event) {
+                r2.setX(r2.getX() - 30);
+                CheckForOverlap(r1, r2);
+            }
+            
+        });
 
-           Rectangle r = new Rectangle(x, y, width, height);
-           
-           root.getChildren().add(r);
-           
-           if(i == 0) {
-               r.setFill(Color.RED);
-               r1 = r;
-           }
-           else {
-               r.setFill(Color.BLUE);
-//               Rotate rotate = new Rotate(45, width / 2, height / 2);
-//               r.getTransforms().add(rotate);
-               r2 = r;
-           }
-           
-           rand.setSeed((long) x);
-        }
+        root.getChildren().add(r1);
+        root.getChildren().add(r2);
 
         Scene scene = new Scene(root, JFXPANEL_WIDTH_INT, JFXPANEL_HEIGHT_INT, Color.WHITE);
 
         fxContainer.setScene(scene);
         
-        CheckForOverlap(r1, r2);
+        
     }
+    
+
 
     private void CheckForOverlap(Rectangle r1, Rectangle r2) {
         

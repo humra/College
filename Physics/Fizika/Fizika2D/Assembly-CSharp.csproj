@@ -65,10 +65,10 @@
     <Compile Include="Assets\PlayerController.cs" />
     <Compile Include="Assets\PlayerFollow.cs" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>D:/Github/UnityPractice/Fizika/Fizika2D/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>D:/Github/Practice/Physics/Fizika/Fizika2D/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>D:/Github/UnityPractice/Fizika/Fizika2D/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>D:/Github/Practice/Physics/Fizika/Fizika2D/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
