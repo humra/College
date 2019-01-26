@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><History>
+  <purchase>
+    <username>testUsername</username>
+    <firstName>testFirstName</firstName>
+    <lastName>testLastName</lastName>
+    <address>testAddress</address>
+    <time>testTime</time>
+    <total>testTotal</total>
+    <items>
+      <item>testItem11</item>
+    </items>
+  </purchase>
+  <purchase>
+    <username>testUsername2</username>
+    <firstName>testFirstName2</firstName>
+    <lastName>testLastName2</lastName>
+    <address>testAddress2</address>
+    <time>testTime2</time>
+    <total>testTotal2</total>
+    <items>
+      <item>testItem21</item>
+    </items>
+  </purchase>
+  <purchase>
+    <username>user</username>
+    <firstName>testname</firstName>
+    <lastName>testlast</lastName>
+    <address>testaddress</address>
+    <time>31/05/2016 16:45:06</time>
+    <total>84.0</total>
+    <items>
+      <item>Genius GHP-200A</item>
+    </items>
+  </purchase>
+  <purchase>
+    <username>user</username>
+    <firstName>danijel</firstName>
+    <lastName>kucak</lastName>
+    <address>zagorska 12</address>
+    <time>31/05/2016 16:46:28</time>
+    <total>950.0</total>
+    <items>
+      <item>Fujitsu Esprimo E5730</item>
+    </items>
+  </purchase>
+  <purchase>
+    <username>user</username>
+    <firstName>maja</firstName>
+    <lastName>majic</lastName>
+    <address>majicka 12</address>
+    <time>31/05/2016 17:00:19</time>
+    <total>1796.0</total>
+    <items>
+      <item>Microsoft Windows 10 Home 32-bit CRO OEM DVD</item>
+    </items>
+  </purchase>
+  <purchase>
+    <username>user</username>
+    <firstName>such</firstName>
+    <lastName>name</lastName>
+    <address>wow</address>
+    <time>31/05/2016 17:16:52</time>
+    <total>236.0</total>
+    <items>
+      <item>Punjač za laptop TRUST 90W Notebook</item>
+    </items>
+  </purchase>
+  <purchase>
+    <username>user</username>
+    <firstName>mikko</firstName>
+    <lastName>hazunfefer</lastName>
+    <address>ezekiel</address>
+    <time>31/05/2016 17:26:56</time>
+    <total>988.0</total>
+    <items>
+      <item>Punjač za laptop TRUST 90W Notebook</item>
+      <item>Xilence 500W RedWing R7 Edition</item>
+      <item>AEG UPS Protect Alpha 450VA/240W</item>
+    </items>
+  </purchase>
+</History>

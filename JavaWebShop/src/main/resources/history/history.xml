@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<History>
+	<purchase>
+		<username>testUsername</username>
+		<firstName>testFirstName</firstName>
+		<lastName>testLastName</lastName>
+		<address>testAddress</address>
+		<time>testTime</time>
+		<total>testTotal</total>
+		<items>
+			<item>testItem11</item>
+			<item>testItem12</item>
+		</items>
+	</purchase>
+	<purchase>
+		<username>testUsername2</username>
+		<firstName>testFirstName2</firstName>
+		<lastName>testLastName2</lastName>
+		<address>testAddress2</address>
+		<time>testTime2</time>
+		<total>testTotal2</total>
+		<items>
+			<item>testItem21</item>
+			<item>testItem22</item>
+		</items>
+	</purchase>
+</History>

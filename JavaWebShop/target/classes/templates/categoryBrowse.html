@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head> 
+    <title>Web shop</title> 
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <script type="text/javascript">
+    	function showItem(id) {
+    		window.location = "/products/" + id;
+    	}
+    </script>
+</head>
+<body>
+	<div th:replace="fragments/header :: header"></div>
+
+    <h1 th:text="${categoryName}" />
+    <h2 th:text="'Broj proizvoda: ' + ${numberOfProducts}" />
+    <h2><a href="/index" >Back</a></h2>
+    
+    <div>
+    	<table>
+    		<tr th:each="product:${products}" th:onclick="'showItem(\'' + ${product.ID} + '\');'">
+    			<td th:text="${product.name}" />
+    			<td th:text="${product.price} + ' kn'" />
+    			<td><img th:src="${product.imgUrl}" /> </td>
+    		</tr>
+    	</table>
+    </div>
+</body>
+</html>

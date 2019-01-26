@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head> 
+    <title>Web shop</title> 
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+	<div th:replace="fragments/header :: header"></div>
+
+	<form method="POST" th:action="'/checkout'">
+	<div>
+		<label for="firstName">First name: </label>
+		<input type="text" name="firstName" value="First name..." />
+	</div>
+	<div>
+		<label for="lastName">Last name: </label>
+		<input type="text" name="lastName" value="Last name..." />
+	</div>
+	<div>
+		<label for="address">Address: </label>
+		<input type="text" name="address" value="Address..." />
+	</div>
+	<div>
+		<input type="submit" value="Submit" />
+	</div>
+	</form>
+</body>
+</html>

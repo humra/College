@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head> 
+    <title>Web shop</title> 
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+	
+	<div th:replace="fragments/header :: header"></div>
+	
+	<div>
+		<table>
+			<tr>
+				<th>PRODUCT</th>
+				<th>QUANTITY</th>		
+				<th>REMOVE ALL</th>
+			</tr>
+			<tr th:each="product:${products}">
+				<td th:text="${product.product.name}" />
+				<td th:text="${product.quantity}" />
+				<td><a th:href="'/cart/removeAll/' + ${product.cartItemId}">Remove all</a></td>
+				<td>
+					<form method="POST" th:action="'/cart/remove/' + ${product.cartItemId}">
+						<label for="qty">Remove: </label>
+						<input type="text" name="qty" th:value="${product.quantity}" />
+						<input type="submit" value="Remove" />
+					</form>
+				</td>
+			</tr>
+		</table>
+	</div>
+	
+	<p th:text="'Total: ' + ${totalPrice} + ' kn'"/>
+	
+	<a th:href="'/cart/clearCart'">Empty cart</a>
+    
+    <a th:href="'/checkout'">Checkout</a>
+</body>
+</html>

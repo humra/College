@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head> 
+    <title>Web shop</title> 
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+
+	<div th:replace="fragments/header :: header"></div>
+
+    <h1 th:text="${product.name}" />
+    
+    <img th:src="${product.imgUrl}" />
+    
+    <h3 th:text="${product.price}" />
+    
+    <p th:text="${product.description}" />
+    
+    <h2><a th:href="'/category/' + ${product.category}" >Back</a></h2>
+    
+    <form method="POST" th:action="'/products/' + ${product.ID}">
+    	<div>
+    		<label for="qty">Quantity</label>
+    		<input type="text" name="qty"  value="1"/>
+    	</div>
+    	<div>
+    		<input type="submit" value="Add to cart"/>
+    	</div>
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head> 
+    <title>Web shop</title> 
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+	
+	<div th:replace="fragments/header :: header"></div>
+	
+	<div>
+		<table th:each="purchase:${purchases}">
+			<tr>
+				<td th:text="${purchase.time}" />
+			</tr>
+			<tr>
+				<td th:text="${purchase.total}" />
+			</tr>
+			<tr>
+				<td>
+					<ul th:each="item:${purchase.items}" >
+						<li th:text="${item}" />
+					</ul>
+				</td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>

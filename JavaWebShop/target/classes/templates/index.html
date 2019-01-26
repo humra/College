@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head> 
+    <title>Web shop</title> 
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+	<div th:replace="fragments/header :: header"></div>
+
+    <h1>Categories</h1>
+    
+    <div id="categories">
+    	<ul>
+    		<li th:each="item:${categories}" ><a th:text="${item}" th:href="'/category/' + ${item}" /> </li>
+    	</ul>
+    </div>
+</body>
+</html>
