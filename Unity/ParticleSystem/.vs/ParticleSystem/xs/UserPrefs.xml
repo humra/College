@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{477DB8C0-D22B-16E3-31A8-2082303D7B76}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ParticleEmitter2.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Particle.cs" Line="71" Column="3" />
+      <File FileName="Assets/Scripts/Particle2.cs" Line="32" Column="42" />
+      <File FileName="Assets/Scripts/ParticleEmitter.cs" Line="71" Column="6" />
+      <File FileName="Assets/Scripts/ParticleEmitter2.cs" Line="5" Column="46" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
