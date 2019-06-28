@@ -1,0 +1,156 @@
+fileFormatVersion: 2
+guid: a7cc12c04d1a6234681a2af6cb27e928
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: candalabro:can
+    100002: candalabro:candelabro
+    100004: candalabro:group1
+    100006: cruz:pCube1
+    100008: cruz:pCube2
+    100010: cruz:pSphere3
+    100012: //RootNode
+    100014: group1
+    100016: pCylinder1
+    100018: polySurface1
+    400000: candalabro:can
+    400002: candalabro:candelabro
+    400004: candalabro:group1
+    400006: cruz:pCube1
+    400008: cruz:pCube2
+    400010: cruz:pSphere3
+    400012: //RootNode
+    400014: group1
+    400016: pCylinder1
+    400018: polySurface1
+    2100000: blinn3
+    2100002: blinn1
+    2100004: blinn2
+    2300000: candalabro:can
+    2300002: candalabro:candelabro
+    2300004: cruz:pCube1
+    2300006: cruz:pCube2
+    2300008: cruz:pSphere3
+    2300010: pCylinder1
+    2300012: polySurface1
+    3300000: candalabro:can
+    3300002: candalabro:candelabro
+    3300004: cruz:pCube1
+    3300006: cruz:pCube2
+    3300008: cruz:pSphere3
+    3300010: pCylinder1
+    3300012: polySurface1
+    4300000: cruz:pCube1
+    4300002: cruz:pSphere3
+    4300004: cruz:pCube2
+    4300006: pCylinder1
+    4300008: polySurface1
+    4300010: candalabro:candelabro
+    4300012: candalabro:can
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ROCK04L
+    second: {fileID: 2800000, guid: 59f3d9b91fc691b4f81aad5a277735da, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ROCK04LB
+    second: {fileID: 2800000, guid: 6a1381753ee92e0458f3925f96b18450, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ROCK06L
+    second: {fileID: 2800000, guid: c18f89b38ec9674458fc2aec76624584, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ROCK06LB
+    second: {fileID: 2800000, guid: 06fe410da30c09843b421e9c5314d352, type: 3}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
