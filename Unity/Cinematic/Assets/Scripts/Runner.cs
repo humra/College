@@ -6,11 +6,8 @@ public class Runner : MonoBehaviour
     private NavMeshAgent agent;
     private Animator animator;
     private Rigidbody rb;
-    private float timestamp;
 
-    public Transform[] target;
-
-    private bool moved = true;
+    public Transform target;
 
     private void Start()
     {
@@ -18,17 +15,11 @@ public class Runner : MonoBehaviour
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody>();
 
-        timestamp = Time.time + 3;
+        agent.SetDestination(target.position);
     }
 
     private void Update()
     {
         animator.SetFloat("Speed", agent.velocity.sqrMagnitude);
-
-        if(timestamp <= Time.time && moved)
-        {
-            agent.SetDestination(target[0].position);
-            moved = false;
-        }
     }
 }
